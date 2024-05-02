@@ -1,38 +1,12 @@
-# Project Documentation
+# Tentang BackOffice&#x20;
 
-### MF BACKOFFICE BATCH 6
+### 1. PETUNJUK INSTALASI
 
-### 1. INFORMASI UMUM
-
-#### Person In Change
-
-| Document Owner    | Dimas Ahmad, M. Hilmy, M. Zulkifli, Rian A.P, Husein Alhafiz                                             |
-| ----------------- | -------------------------------------------------------------------------------------------------------- |
-| Designer          | Novita Rahmadhani                                                                                        |
-| Developers        | Ahmad Jalu F. N. H, Anreas Nugroho, Bintang Rahmatullah, Michael Mervin R, Reza Irvando, Umar Hadi Mukti |
-| Quality Assurance | M. Fadly Febrian, M. Ibnu Al Hanif                                                                       |
-| Delivery Date     | -                                                                                                        |
-| Sign off Date     | -                                                                                                        |
-
-#### Riwayat Revisi
-
-| Author              | Revision Notes                                                           |
-| ------------------- | ------------------------------------------------------------------------ |
-| Andreas Nugroho     | Deploy commit Profil Mitra                                               |
-| Andreas Nugroho     | Fitur Release Listing Mitra                                              |
-| Umar Hadi Mukti     | Fitur Release Profil Mitra dan Listing Proposal                          |
-| M. Reza Irvando     | Fitur Release Detail Inovator (sidebar dan daftar proposal)              |
-| Michael Mervin R    | Fitur Release Show Jumlah Proposal dan Pendanaan diajukan dan ditetapkan |
-| Bintang Rahmatullah | Fitur Release                                                            |
-| Michael Mervin R    | Fitur Release                                                            |
-
-#### Petunjuk Instalasi
-
-**Laravel Project Setup Guide**
+**`Laravel Project Setup Guide`**
 
 This guide will walk you through the steps required to set up a Laravel project on your local machine. Laravel is a popular PHP framework for building web applications.
 
-Prerequisites\
+`Prerequisites`\
 Before you begin, make sure you have the following installed on your machine:\
 \- required PHP v8.0 or greater\
 \- required Composer v2.5.8 or greater\
@@ -40,41 +14,41 @@ Before you begin, make sure you have the following installed on your machine:\
 \- required Git v2.34.1 or greater\
 \- optional Docker v25.0.2 or greater
 
-Getting Started
+`Getting Started`
 
-1\. Clone the repository
+`1. Clone the repository`
 
 sh\
 git clone "link repository
 
-2\. Navigate to the project directory
+`2. Navigate to the project directory`
 
 sh\
 cd "project directory"
 
-3\. Install PHP dependencies using composer
+`3. Install PHP dependencies using composer`
 
 sh\
 cd composer install
 
-4\. Copy .env.example to .env
+`4. Copy .env.example to .env`
 
 sh\
 cp .env.example .env
 
-5\. Generate application key
+`5. Generate application key`
 
 sh\
 php artisan key:generate
 
-6\. Install javascript using npm or yarn
+`6. Install javascript using npm or yarn`
 
 sh\
 npm install\
 or\
 yarn install
 
-7\. Compile assets
+`7. Compile assets`
 
 sh\
 for local development\
@@ -82,7 +56,7 @@ npm run dev\
 or\
 yarn dev
 
-8\. Setup your database configuration file. If your are using docker, you can skip this step.
+`8. Setup your database configuration file. If your are using docker, you can skip this step.`
 
 sh\
 DB\_CONNECTION=mysql\
@@ -93,17 +67,17 @@ DB\_USERNAME=your\_database\_username\
 DB\_PASSWORD=your\_database\_password\
 
 
-9\. Migrate the database
+`9. Migrate the database`
 
 sh\
 php artisan migrate
 
-10\. Serve application
+`10. Serve application`
 
 sh\
 php artisan serve
 
-Additional Configuration
+`Additional Configuration`
 
 \- Environment Configuration: Update the .env file as per your environment settings (e.g., APP\_DEBUG, APP\_URL, etc.).\
 \- Database Configuration: Modify the database configuration in the .env file according to your requirements.\
@@ -111,25 +85,25 @@ Additional Configuration
 \- Queue Configuration: If your application uses queues, configure the queue driver in the .env file.\
 
 
-Run Using Docker
+`Run Using Docker`
 
 For those of u who prefer using docker when serving the application, please follow these steps below:
 
-1\. Follow the prior step until you are at step \[7]\(#7)\
-2\. Start the docker container\
-
+`1. Follow the prior step until you are at step`\
+`2. Start the docker container`
 
 sh\
 \# run usign docker\
 docker compose up -d\
 \# or using docker-compose\
-docker-compose up -d\
+docker-compose up -d
 
-
-3\. Migrate the database using sail
+_`3. Migrate the database using sail`_
 
 sh\
 ./sail artisan migrate
+
+
 
 ### 2. LATAR BELAKANG
 
@@ -143,85 +117,10 @@ Tujuan utama Program Backoffice Kedaireka adalah untuk mendorong terjadinya kerj
 
 ### 4. AKTOR
 
-| No | User Category                            | User Main Activity                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| -- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1  | Admin                                    | <p>• Mengakses seluruh fitur pengusul.show-menu<br>• Mengakses seluruh fitur pengusul-menu<br>• Mengakses seluruh fitur perguruan-tinggi.show-menu<br>• Mengakses seluruh fitur perguruan-tinggi-menu<br>• Mengakses seluruh fitur action-verifikasi<br>• Mengakses seluruh fitur action-revert-status-verifikasi<br>• Mengakses seluruh fitur kontrak.show-menu<br>• Mengakses seluruh fitur seminar-admin-dksi</p>                                                     |
-| 2  | Pengusul                                 | <p>• Mengakses seluruh fitur pengusul-dashboard<br>• Mengakses seluruh fitur pengusul-pengajuan<br>• Mengakses seluruh fitur pengusul-show-proposal<br>• Mengakses seluruh fitur pengusul-ajukan-proposal</p>                                                                                                                                                                                                                                                            |
-| 3  | Tim Reviewer                             | <p>• Mengakses seluruh fitur index-tugas-menu<br>• Mengakses seluruh fitur show-tugas-menu</p>                                                                                                                                                                                                                                                                                                                                                                           |
-| 4  | Unit Pengelola (KUP) di Perguruan Tinggi | <p>• Mengakses seluruh fitur action-verifikasi<br>• Mengakses seluruh fitur action-revert-status-verifikasi<br>• Mengakses seluruh fitur index-tugas-menu<br>• Mengakses seluruh fitur show-tugas-menu<br>• Mengakses seluruh fitur up-index-proposal-menu<br>• Mengakses seluruh fitur up-show-proposal-menu<br>• Mengakses seluruh fitur up-index-kontrak-menu<br>• Mengakses seluruh fitur up-show-kontrak-menu<br>• Mengakses seluruh fitur up-verif-pra-kontrak</p> |
+<table><thead><tr><th width="72">No</th><th width="188">User Category</th><th>User Main Activity</th></tr></thead><tbody><tr><td>1</td><td>Admin</td><td>• Mengakses seluruh fitur pengusul.show-menu<br>• Mengakses seluruh fitur pengusul-menu<br>• Mengakses seluruh fitur perguruan-tinggi.show-menu<br>• Mengakses seluruh fitur perguruan-tinggi-menu<br>• Mengakses seluruh fitur action-verifikasi<br>• Mengakses seluruh fitur action-revert-status-verifikasi<br>• Mengakses seluruh fitur kontrak.show-menu<br>• Mengakses seluruh fitur seminar-admin-dksi</td></tr><tr><td>2</td><td>Pengusul</td><td>• Mengakses seluruh fitur pengusul-dashboard<br>• Mengakses seluruh fitur pengusul-pengajuan<br>• Mengakses seluruh fitur pengusul-show-proposal<br>• Mengakses seluruh fitur pengusul-ajukan-proposal</td></tr><tr><td>3</td><td>Tim Reviewer</td><td>• Mengakses seluruh fitur index-tugas-menu<br>• Mengakses seluruh fitur show-tugas-menu</td></tr><tr><td>4</td><td>Unit Pengelola (KUP) di Perguruan Tinggi</td><td>• Mengakses seluruh fitur action-verifikasi<br>• Mengakses seluruh fitur action-revert-status-verifikasi<br>• Mengakses seluruh fitur index-tugas-menu<br>• Mengakses seluruh fitur show-tugas-menu<br>• Mengakses seluruh fitur up-index-proposal-menu<br>• Mengakses seluruh fitur up-show-proposal-menu<br>• Mengakses seluruh fitur up-index-kontrak-menu<br>• Mengakses seluruh fitur up-show-kontrak-menu<br>• Mengakses seluruh fitur up-verif-pra-kontrak</td></tr></tbody></table>
 
 ### 5. FITUR YANG DIKEMBANGKAN
 
-| No | Epic             | Feature                                                                                                                                                                                                                                 |
-| -- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1  | Perguruan Tinggi | <p>Profiling oleh Admin<br>- Daftar Pengusul<br>- Daftar Industri<br>- Total Kolaborasi dengan Industri<br>- Total Pendanaan</p>                                                                                                        |
-| 2  | Mitra            | <p>Profiling oleh Admin<br>- Daftar Pengusul<br>- Daftar Proposal<br>- Daftar Mitra<br>- Total Kolaborasi dengan Perguruan Tinggi<br>- Total Pendanaan<br>Login<br>- Daftar Pengusul<br>- Daftar Proposal<br>- Status Pendanaan<br></p> |
-| 3  | Pengusul         | <p>Profiling oleh Admin<br>- Daftar Mitra<br>- Total Pendanaan<br>Login<br>- Daftar Proposal<br>- Status Pendanaan<br></p>                                                                                                              |
-
-### 6. DETAIL FITUR
-
-#### 1. LISTING MITRA
-
-**Informasi Singkat**
-
-| Target Release    | 1.0                                                                                                   |
-| ----------------- | ----------------------------------------------------------------------------------------------------- |
-| Epic              | Pengusul                                                                                              |
-| Short Explanation | Fitur yang digunakan oleh pengusul setelah login supaya dapat melihat Daftar Proposal yang diinginkan |
-| Document Status   | Draft                                                                                                 |
-
-\
 
 
-#### REQUIREMENT
-
-| No | User Story                                                                                             | Priority  | Notes                                                                                                                       |
-| -- | ------------------------------------------------------------------------------------------------------ | --------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 1  | <p>As a Mitra<br>I Want Search category as user<br>So I Can search and acces every Mitra features</p>  | Must Have | <p>Form filter mitra sebagai berikut<br>1. Filter kategori Mitra*<br>2. Filter Bidang*<br>3. Filter Pengajuan Proposal*</p> |
-| 2  | <p>As a Admin<br>I Want Search category as Admin<br>So I Can search and acces every Admin features</p> | Must Have | <p>Form filter mitra sebagai berikut<br>1. Filter kategori Mitra*<br>2. Filter Bidang*<br>3. Filter Pengajuan Proposal*</p> |
-
-#### SCENARIO
-
-| No | Scenario                                                                                                               | Type    | Description                                                               | Validation |
-| -- | ---------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------- | ---------- |
-| 1  | <p>As a Mitra Ikomerz Ilmu Komputer IPB<br>I want login as mitra<br>So i can search and acces every mitra features</p> | Postive | Mitra Ikomerz Ilmu Komputer IPB mendapatkan hasil pencarian sesuai filter | content    |
-
-#### USER INTERFACE & DESIGN
-
-| Description | Login                    |
-| ----------- | ------------------------ |
-| Login Page  | Image                    |
-| Link figma  | ini ceritanya link figma |
-|             |                          |
-
-#### 2. PROFIL MITRA dan LISTING PROPOSAL
-
-**Informasi Singkat**
-
-| Target Release    | 1.0                                                                                   |
-| ----------------- | ------------------------------------------------------------------------------------- |
-| Epic              | Mitra                                                                                 |
-| Short Explanation | Fitur untuk user/mitra dapat melakukan pencarian berdasarkan kriteria yang diinginkan |
-| Document Status   | Draft                                                                                 |
-
-#### REQUIREMENT
-
-| No | User Story                                                                                             | Priority  | Notes                                                                                                                       |
-| -- | ------------------------------------------------------------------------------------------------------ | --------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 1  | <p>As a Mitra<br>I Want Search category as user<br>So I Can search and acces every Mitra features</p>  | Must Have | <p>Form filter mitra sebagai berikut<br>1. Filter kategori Mitra*<br>2. Filter Bidang*<br>3. Filter Pengajuan Proposal*</p> |
-| 2  | <p>As a Admin<br>I Want Search category as Admin<br>So I Can search and acces every Admin features</p> | Must Have | <p>Form filter mitra sebagai berikut<br>1. Filter kategori Mitra*<br>2. Filter Bidang*<br>3. Filter Pengajuan Proposal*</p> |
-
-#### SCENARIO
-
-| No | Scenario                                                                                                               | Type    | Description                                                               | Validation |
-| -- | ---------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------- | ---------- |
-| 1  | <p>As a Mitra Ikomerz Ilmu Komputer IPB<br>I want login as mitra<br>So i can search and acces every mitra features</p> | Postive | Mitra Ikomerz Ilmu Komputer IPB mendapatkan hasil pencarian sesuai filter | content    |
-
-#### USER INTERFACE & DESIGN
-
-| Description | Login                    |
-| ----------- | ------------------------ |
-| Login Page  | Image                    |
-| Link figma  | ini ceritanya link figma |
-
-\
+<table><thead><tr><th width="81">No</th><th width="167">Epic</th><th>Feature</th><th></th></tr></thead><tbody><tr><td></td><td></td><td>User</td><td>Admin</td></tr><tr><td>1</td><td>Perguruan Tinggi</td><td>Profiling oleh Admin<br>- Daftar Pengusul<br>- Daftar Industri<br>- Total Kolaborasi dengan Industri<br>- Total Pendanaan</td><td>-</td></tr><tr><td>2</td><td>Mitra</td><td>Login<br>- Daftar Pengusul<br>- Daftar Proposal<br>- Status Pendanaan<br></td><td>Profiling oleh Admin<br>- Daftar Pengusul<br>- Daftar Proposal<br>- Daftar Mitra<br>- Total Kolaborasi dengan Perguruan Tinggi<br>- Total Pendanaan</td></tr><tr><td>3</td><td>Pengusul</td><td>Login<br>- Daftar Proposal<br>- Status Pendanaan<br></td><td>Profiling oleh Admin<br>- Daftar Proposal<br>- Status Pendanaan<br></td></tr></tbody></table>
