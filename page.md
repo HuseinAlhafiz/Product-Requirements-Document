@@ -2,138 +2,113 @@
 
 ### ADMIN
 
-**`/perguruan-tinggi`**
+1. **/perguruan-tinggi**
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`
 
-1. Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/)
-2. Masuk ke dalam menu dashboard&#x20;
-3. Pilih navigasi admin (DIKTI),
-4. Pilih opsi Perguruan Tinggi pada dropdown
+Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard , Pilih navigasi admin (DIKTI), Pilih opsi Perguruan Tinggi pada dropdown.
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
 
 perguruan-tinggi-menu
 
-`[REDIRECT]`&#x20;
+`REDIRECT`&#x20;
 
 /perguruan-tinggi/{pt} (Detail Perguruan Tinggi)
 
 
 
-**`2./perguruan-tinggi/{pt}`**
+2. **/perguruan-tinggi/{pt}**
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`
 
-1. Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/)
-2. Masuk ke dalam menu dashboard&#x20;
-3. Pilih navigasi admin (DIKTI),
-4. Pilih opsi Perguruan Tinggi pada dropdown
-5. Pilih Perguruan Tinggi yang dituju
+Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Perguruan Tinggi pada dropdown, Pilih Perguruan Tinggi yang dituju.
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
 
 perguruan-tinggi.show-menu
 
-`[REDIRECT]`&#x20;
+`REDIRECT`
 
 /pengusul/{id\_proposal} (Detail Proposal)
 
 
 
-3. **`/pendaftaran-pt`**&#x20;
+3. **/pendaftaran-pt**&#x20;
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`
 
-1. Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/)
-2. Masuk ke dalam menu dashboard&#x20;
-3. Pilih navigasi admin (DIKTI)
-4. Pilih opsi Daftar Pengajuan Unit Pengelola pada dropdown
+Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard , Pilih navigasi admin (DIKTI), Pilih opsi Daftar Pengajuan Unit Pengelola pada dropdown
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
 
 pendaftaran-pt-menu
 
-`[REDIRECT]`&#x20;
+`REDIRECT`&#x20;
 
 /pendaftaran-pt/{pt}
 
 
 
-`/pendaftaran-pt/{pt}`&#x20;
+**/pendaftaran-pt/{pt}**&#x20;
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`
 
-1. Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/)
-2. Masuk ke dalam menu dashboard&#x20;
-3. Pilih navigasi admin (DIKTI)
-4. Pilih opsi Daftar Pengajuan Unit Pengelola pada dropdown
-5. Pilih Detail Pendaftaran Pengelola MF yang dituju dengan mengetuk ikon pencarian "searchbar".
+Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Daftar Pengajuan Unit Pengelola pada dropdown, Pilih Detail Pendaftaran Pengelola MF yang dituju dengan mengetuk ikon pencarian "searchbar".
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
 
 pendaftaran-pt-show-menu
 
-`[REDIRECT]`&#x20;
+`REDIRECT`
 
 \-
 
 
 
-**`/pengusul`**
+**/pengusul**
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`
 
-1. Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/)
-2. Masuk ke dalam menu dashboard&#x20;
-3. Pilih navigasi admin (DIKTI)
-4. Pilih opsi ProposalMF2023 pada dropdown.
+Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi ProposalMF2023 pada dropdown.
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
 
 pengusul-menu
 
-`[REDIRECT]`&#x20;
+`REDIRECT`
 
 /pengusul/{id\_proposal},&#x20;
 
 
 
-**`/pengusul/{id_proposal}`**
+**/pengusul/{id\_proposal}**
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`
 
-1. Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/)
-2. Masuk ke dalam menu dashboard&#x20;
-3. Pilih navigasi admin (DIKTI)
-4. Pilih opsi ProposalMF2023 pada dropdown.
-5. Pilih proposal yang dituju
+Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi ProposalMF2023 pada dropdown, Pilih proposal yang dituju
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
 
 pengusul.show-menu
 
-`[REDIRECT]`&#x20;
+`REDIRECT`
 
 \-
 
-\
 
 
-**`/kontrak`**
+**/kontrak**
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`
 
-1. Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/)
-2. Masuk ke dalam menu dashboard&#x20;
-3. Pilih navigasi admin (DIKTI)
-4. Pilih opsi KontrakMF2023 pada dropdown.
+Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard , Pilih navigasi admin (DIKTI), Pilih opsi KontrakMF2023 pada dropdown.
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
 
 kontrak-menu
 
-`[REDIRECT]`&#x20;
+`REDIRECT`
 
 kontrak/{id\_kontrak}
 
@@ -141,79 +116,74 @@ kontrak/{id\_kontrak}
 
 **`/diksi-kontrak (skip dulu)`**
 
-\[CARA AKSES] \
+`CARA AKSES`\
 
 
-\[PERMISSION]&#x20;
+`PERMISSION`
 
 diksi-kontrak-menu
 
-\[REDIRECT]&#x20;
+`REDIRECT`
 
 
 
-**`/kontrak/merge-dokumen-kontrak`**
+**/kontrak/merge-dokumen-kontrak**
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`
 
-1. Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/)
-2. Masuk ke dalam menu dashboard&#x20;
-3. Pilih navigasi admin (DIKTI)
-4. Pilih opsi Merge Dokumen Kontrak pada dropdown.
+Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Merge Dokumen Kontrak pada dropdown.
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
 
 kontrak.merge-dokumen-kontrak
 
-`[REDIRECT]`&#x20;
+`REDIRECT`
 
 \-
 
 \
 
 
-**`/kontrak/{id_kontrak}`**
+**/kontrak/{id\_kontrak}**
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Kontrak MF 2023 pada dropdown.
-5. Pilih detail kontrak yang dituju dengan mengetuk ikon pencarian "searchbar".
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/)., Masuk ke dalam menu dashboard., Pilih navigasi admin (DIKTI), Pilih opsi Kontrak MF 2023 pada dropdown, Pilih detail kontrak yang dituju dengan mengetuk ikon pencarian "searchbar".
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
 
 kontrak.show-menu
 
-`[REDIRECT]`&#x20;
+`REDIRECT`
 
 \-
 
 
 
-**`/kontrak/{kontrak_id}/upload/{kategori_berkas_id} (ini juga skip dulu)`**
+**/kontrak/{kontrak\_id}/upload/{kategori\_berkas\_id} (ini juga skip dulu)**
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`&#x20;
 
 
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
 
 kontrak.show-menu
 
-`[REDIRECT]`&#x20;
+`REDIRECT`
 
 \
 
 
-**`/kontrak/{kontrak_id}/verifikasi/{kategori_berkas_id}  (ini juga skip dulu)`**
+**/kontrak/{kontrak\_id}/verifikasi/{kategori\_berkas\_id}  (ini juga skip dulu)**
 
-`[CARA AKSES]`&#x20;
+`CARA AKSES`&#x20;
 
 
 
-`[PERMISSION]`&#x20;
+`PERMISSION`
+
+
 
 kontrak.show-menu
 
@@ -232,21 +202,13 @@ kontrak.show-menu
 
 `[REDIRECT]`&#x20;
 
-\
-\
 
 
 `/mitra (On Going)`
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Mitra pada dropdown.
-
-\
-
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Mitra pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -256,17 +218,13 @@ mitra-menu
 
 \-
 
-\
 
 
 `/reviewer`
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi reviewer pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/)., Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi reviewer pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -282,12 +240,7 @@ admin/reviewer/{id}
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Reviewer pada dropdown.
-5. Pilih detail kontrak yang dituju dengan mengetuk ikon pencarian "searchbar".
-6. Pilih opsi View pada menu ikon yang tercantum pada bagian Aksi.
+1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Reviewer pada dropdown, Pilih detail kontrak yang dituju dengan mengetuk ikon pencarian "searchbar", Pilih opsi View pada menu ikon yang tercantum pada bagian Aksi.
 
 `[PERMISSION]`&#x20;
 
@@ -303,10 +256,7 @@ admin/pegusul/{id\_proposal}
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi User Management pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi User Management pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -322,10 +272,7 @@ user-management-menu
 
 **\[CARA AKSES]**&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Manajemen Pengumuman pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Manajemen Pengumuman pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -335,17 +282,13 @@ Manajemen-pengumuman &#x20;
 
 \-
 
-\
 
 
 **`/statistik (Skip dulu)`**
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Statistik pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Statistik pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -377,10 +320,7 @@ akses-statistik-2024
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Papan Monitoring VK pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Papan Monitoring VK pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -390,17 +330,13 @@ akses-statistik-2024
 
 \-
 
-\
 
 
 `/pusatbantuan (Skip dulu)`
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Papan Monitoring VK pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Papan Monitoring VK pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -416,10 +352,7 @@ akses-statistik-2024
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Export pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/)., Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Export pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -435,10 +368,7 @@ export-document
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Seminar Hasil DIKTI 2022 pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Seminar Hasil DIKTI 2022 pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -448,18 +378,13 @@ seminar-admin
 
 /seminar-hasil-2022-dikti/{id\_proposal}
 
-\
 
 
 **`/seminar-hasil-2022-dikti/{id_proposal}`**
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Seminar Hasil DIKTI 2022 pada dropdown.
-5. Pilih proposal yang dituju dengan mengetuk ikon pencarian "searchbar".
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Seminar Hasil DIKTI 2022 pada dropdown, Pilih proposal yang dituju dengan mengetuk ikon pencarian "searchbar".
 
 `[PERMISSION]`&#x20;
 
@@ -475,10 +400,7 @@ seminar-admin
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKSI).
-4. Pilih opsi Seminar Hasil DIKSI 2022 pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKSI), Pilih opsi Seminar Hasil DIKSI 2022 pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -490,17 +412,13 @@ seminar-admin-diksi
 
 \-
 
-\
 
 
 **`seminar-hasil-diksi/2023 (Skip Dulu)`**
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKSI).
-4. Pilih opsi Seminar Hasil DIKSI 2023 pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKSI), Pilih opsi Seminar Hasil DIKSI 2023 pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -516,11 +434,7 @@ seminar-admin-diksi
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKSI).
-4. Pilih opsi Seminar Hasil DIKSI 2023 pada dropdown.
-5. Pilih proposal yang dituju dengan mengetuk ikon pencarian "searchbar".
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKSI), Pilih opsi Seminar Hasil DIKSI 2023 pada dropdown, Pilih proposal yang dituju dengan mengetuk ikon pencarian "searchbar".
 
 `[PERMISSION]`&#x20;
 
@@ -536,10 +450,7 @@ seminar-admin-diksi
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Daftar Pencairan pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Daftar Pencairan pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -555,10 +466,7 @@ pencairan-admin-index
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Daftar Pencairan pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Daftar Pencairan pada dropdown.
 
 \[PERMISSION]&#x20;
 
@@ -574,11 +482,7 @@ pencairan-admin-index
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Kontrak PDP 2024 pada dropdown.
-5. Pilih Kontrak yang dituju dengan mengetuk ikon pencarian "searchbar".
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Kontrak PDP 2024 pada dropdown, Pilih Kontrak yang dituju dengan mengetuk ikon pencarian "searchbar".
 
 `[PERMISSION]`&#x20;
 
@@ -643,10 +547,7 @@ pencairan-tahap-2
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Izin Import pada dropdown.
+1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Izin Import pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -662,11 +563,7 @@ izin-impor
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Izin Import pada dropdown.
-5. Pilih button “Buat Pengajuan”
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Izin Import pada dropdown, Pilih button “Buat Pengajuan”
 
 `[PERMISSION]`&#x20;
 
@@ -676,17 +573,11 @@ izin-impor
 
 
 
-
-
 **`/izin-impor/{id_izin_impor}`**
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Izin Import pada dropdown.
-5. Pilih Daftar Pengajuan Izin Impor yang dituju dengan mengetuk ikon pencarian "searchbar".
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Izin Import pada dropdown, Pilih Daftar Pengajuan Izin Impor yang dituju dengan mengetuk ikon pencarian "searchbar".
 
 `[PERMISSION]`&#x20;
 
@@ -733,7 +624,7 @@ volunteer-show-pengusul-menu
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai reviewer ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
+Login sebagai reviewer ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
 
 `[PERMISSION]`&#x20;
 

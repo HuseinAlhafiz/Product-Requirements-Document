@@ -4,3 +4,4 @@
 * [Model](model.md)
 * [Page](page.md)
 * [Component](component.md)
+* [Dokumentasi Teknis](dokumentasi-teknis.md)
