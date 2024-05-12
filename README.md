@@ -16,66 +16,87 @@ Before you begin, make sure you have the following installed on your machine:\
 
 `Getting Started`
 
-`1. Clone the repository`
+1\. Clone the repository
 
-sh\
-git clone "link repository
+```
+sh
+git clone "link repository"
+```
 
-`2. Navigate to the project directory`
+2\. Navigate to the project directory
 
-sh\
+```
+sh
 cd "project directory"
+```
 
-`3. Install PHP dependencies using composer`
+3\. Install PHP dependencies using composer
 
-sh\
+```
+sh
 cd composer install
+```
 
-`4. Copy .env.example to .env`
+4\. Copy .env.example to .env
 
-sh\
+```
+sh
 cp .env.example .env
+```
 
-`5. Generate application key`
+5\. Generate application key
 
-sh\
+```
+sh
 php artisan key:generate
+```
 
-`6. Install javascript using npm or yarn`
+6\. Install javascript using npm or yarn
 
-sh\
-npm install\
-or\
+```
+sh
+npm install
+or
 yarn install
+```
 
-`7. Compile assets`
+7\. Compile assets
 
-sh\
-for local development\
-npm run dev\
-or\
+```
+sh
+for local development
+npm run dev
+or
 yarn dev
+```
 
-`8. Setup your database configuration file. If your are using docker, you can skip this step.`
+8\. Setup your database configuration file. If your are using docker, you can skip this step.
 
-sh\
-DB\_CONNECTION=mysql\
-DB\_HOST=127.0.0.1\
-DB\_PORT=3306\
-DB\_DATABASE=your\_database\_name\
-DB\_USERNAME=your\_database\_username\
-DB\_PASSWORD=your\_database\_password\
+```
+sh
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_database_password
+```
 
+9\. Migrate the database
 
-`9. Migrate the database`
-
-sh\
+```
+sh
 php artisan migrate
+```
 
-`10. Serve application`
+10\. Serve application
 
-sh\
+```
+sh
 php artisan serve
+```
+
+
 
 `Additional Configuration`
 
@@ -89,21 +110,22 @@ php artisan serve
 
 For those of u who prefer using docker when serving the application, please follow these steps below:
 
-`1. Follow the prior step until you are at step`\
-`2. Start the docker container`
+1\. Follow the prior step until you are at step\
+2\. Start the docker container
 
-sh\
-\# run usign docker\
-docker compose up -d\
-\# or using docker-compose\
+```
+# run usign docker
+docker compose up -d
+# or using docker-compose
 docker-compose up -d
+```
 
-_`3. Migrate the database using sail`_
+3\. Migrate the database using sail
 
-sh\
+```
+sh
 ./sail artisan migrate
-
-
+```
 
 ### 2. LATAR BELAKANG
 
@@ -120,7 +142,5 @@ Tujuan utama Program Backoffice Kedaireka adalah untuk mendorong terjadinya kerj
 <table><thead><tr><th width="72">No</th><th width="188">User Category</th><th>User Main Activity</th></tr></thead><tbody><tr><td>1</td><td>Admin</td><td>• Mengakses seluruh fitur pengusul.show-menu<br>• Mengakses seluruh fitur pengusul-menu<br>• Mengakses seluruh fitur perguruan-tinggi.show-menu<br>• Mengakses seluruh fitur perguruan-tinggi-menu<br>• Mengakses seluruh fitur action-verifikasi<br>• Mengakses seluruh fitur action-revert-status-verifikasi<br>• Mengakses seluruh fitur kontrak.show-menu<br>• Mengakses seluruh fitur seminar-admin-dksi</td></tr><tr><td>2</td><td>Pengusul</td><td>• Mengakses seluruh fitur pengusul-dashboard<br>• Mengakses seluruh fitur pengusul-pengajuan<br>• Mengakses seluruh fitur pengusul-show-proposal<br>• Mengakses seluruh fitur pengusul-ajukan-proposal</td></tr><tr><td>3</td><td>Tim Reviewer</td><td>• Mengakses seluruh fitur index-tugas-menu<br>• Mengakses seluruh fitur show-tugas-menu</td></tr><tr><td>4</td><td>Unit Pengelola (KUP) di Perguruan Tinggi</td><td>• Mengakses seluruh fitur action-verifikasi<br>• Mengakses seluruh fitur action-revert-status-verifikasi<br>• Mengakses seluruh fitur index-tugas-menu<br>• Mengakses seluruh fitur show-tugas-menu<br>• Mengakses seluruh fitur up-index-proposal-menu<br>• Mengakses seluruh fitur up-show-proposal-menu<br>• Mengakses seluruh fitur up-index-kontrak-menu<br>• Mengakses seluruh fitur up-show-kontrak-menu<br>• Mengakses seluruh fitur up-verif-pra-kontrak</td></tr></tbody></table>
 
 ### 5. FITUR YANG DIKEMBANGKAN
-
-
 
 <table><thead><tr><th width="81">No</th><th width="167">Epic</th><th>Feature</th><th></th></tr></thead><tbody><tr><td></td><td></td><td>User</td><td>Admin</td></tr><tr><td>1</td><td>Perguruan Tinggi</td><td>Profiling oleh Admin<br>- Daftar Pengusul<br>- Daftar Industri<br>- Total Kolaborasi dengan Industri<br>- Total Pendanaan</td><td>-</td></tr><tr><td>2</td><td>Mitra</td><td>Login<br>- Daftar Pengusul<br>- Daftar Proposal<br>- Status Pendanaan<br></td><td>Profiling oleh Admin<br>- Daftar Pengusul<br>- Daftar Proposal<br>- Daftar Mitra<br>- Total Kolaborasi dengan Perguruan Tinggi<br>- Total Pendanaan</td></tr><tr><td>3</td><td>Pengusul</td><td>Login<br>- Daftar Proposal<br>- Status Pendanaan<br></td><td>Profiling oleh Admin<br>- Daftar Proposal<br>- Status Pendanaan<br></td></tr></tbody></table>
