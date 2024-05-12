@@ -14,9 +14,9 @@ perguruan-tinggi-menu
 
 `REDIRECT`&#x20;
 
-/perguruan-tinggi/{pt} (Detail Perguruan Tinggi)
-
-
+```
+admin/perguruan-tinggi/{pt}
+```
 
 2. **/perguruan-tinggi/{pt}**
 
@@ -30,9 +30,9 @@ perguruan-tinggi.show-menu
 
 `REDIRECT`
 
-/pengusul/{id\_proposal} (Detail Proposal)
-
-
+```
+admin/pengusul/{id_proposal} 
+```
 
 3. **/pendaftaran-pt**&#x20;
 
@@ -46,9 +46,9 @@ pendaftaran-pt-menu
 
 `REDIRECT`&#x20;
 
-/pendaftaran-pt/{pt}
-
-
+```
+admin/pendaftaran-pt/{pt}
+```
 
 **/pendaftaran-pt/{pt}**&#x20;
 

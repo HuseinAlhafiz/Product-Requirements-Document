@@ -144,3 +144,9 @@ Tujuan utama Program Backoffice Kedaireka adalah untuk mendorong terjadinya kerj
 ### 5. FITUR YANG DIKEMBANGKAN
 
 <table><thead><tr><th width="81">No</th><th width="167">Epic</th><th>Feature</th><th></th></tr></thead><tbody><tr><td></td><td></td><td>User</td><td>Admin</td></tr><tr><td>1</td><td>Perguruan Tinggi</td><td>Profiling oleh Admin<br>- Daftar Pengusul<br>- Daftar Industri<br>- Total Kolaborasi dengan Industri<br>- Total Pendanaan</td><td>-</td></tr><tr><td>2</td><td>Mitra</td><td>Login<br>- Daftar Pengusul<br>- Daftar Proposal<br>- Status Pendanaan<br></td><td>Profiling oleh Admin<br>- Daftar Pengusul<br>- Daftar Proposal<br>- Daftar Mitra<br>- Total Kolaborasi dengan Perguruan Tinggi<br>- Total Pendanaan</td></tr><tr><td>3</td><td>Pengusul</td><td>Login<br>- Daftar Proposal<br>- Status Pendanaan<br></td><td>Profiling oleh Admin<br>- Daftar Proposal<br>- Status Pendanaan<br></td></tr></tbody></table>
+
+
+
+
+
+<table><thead><tr><th width="209">Document Owner</th><th>Dimas Ahmad, M. Hilmy, M. Zulkifli, Rian A.P, Husein Alhafiz</th></tr></thead><tbody><tr><td>Designer</td><td>Novita Rahmadhani</td></tr><tr><td>Developers</td><td>Ahmad Jalu F. N. H, Anreas Nugroho, Bintang Rahmatullah, Michael Mervin R, Reza Irvando, Umar Hadi Mukti</td></tr><tr><td>Quality Assurance</td><td>M. Fadly Febrian, M. Ibnu Al Hanif</td></tr><tr><td>Delivery Date</td><td>-</td></tr><tr><td>Sign off Date</td><td>-</td></tr></tbody></table>
