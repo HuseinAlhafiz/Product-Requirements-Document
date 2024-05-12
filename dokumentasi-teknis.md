@@ -74,7 +74,7 @@ Tkai\_matching\_fund has one proposal\_ditetapkans
 
 `NAMA KOMPONEN`
 
-<table><thead><tr><th width="79">No</th><th width="288">Nama Folder</th><th>Nama File</th></tr></thead><tbody><tr><td>1</td><td>innovator</td><td>index</td></tr><tr><td>2</td><td></td><td></td></tr><tr><td>3</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="79">No</th><th width="288">Nama Folder</th><th>Nama File</th></tr></thead><tbody><tr><td>1</td><td>innovator</td><td>index</td></tr></tbody></table>
 
 **Keanggotaan Proposal**
 
@@ -82,7 +82,7 @@ Tkai\_matching\_fund has one proposal\_ditetapkans
 
 **`MODEL`**
 
-<table><thead><tr><th width="87">No</th><th width="288">Model</th><th>Nama Tabel</th></tr></thead><tbody><tr><td>1</td><td>MfProposal</td><td>mf_proposals</td></tr><tr><td>2</td><td></td><td></td></tr><tr><td>3</td><td></td><td></td></tr><tr><td>4</td><td></td><td></td></tr><tr><td>5</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="87">No</th><th width="288">Model</th><th>Nama Tabel</th></tr></thead><tbody><tr><td>1</td><td>MfProposal</td><td>mf_proposals</td></tr></tbody></table>
 
 **`RELASI`**
 
@@ -156,7 +156,11 @@ TxProposalStatus belong to TkaiProposal
 
 **`DOKUMENTASI`**
 
+<figure><img src=".gitbook/assets/umar1.jpeg" alt=""><figcaption></figcaption></figure>
 
+<figure><img src=".gitbook/assets/umar2.jpeg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/umar3.jpeg" alt=""><figcaption></figcaption></figure>
 
 **`MODEL`**
 
