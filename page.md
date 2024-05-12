@@ -18,6 +18,8 @@ perguruan-tinggi-menu
 admin/perguruan-tinggi/{pt}
 ```
 
+
+
 2. **/perguruan-tinggi/{pt}**
 
 `CARA AKSES`
@@ -33,6 +35,8 @@ perguruan-tinggi.show-menu
 ```
 admin/pengusul/{id_proposal} 
 ```
+
+
 
 3. **/pendaftaran-pt**&#x20;
 
@@ -50,7 +54,9 @@ pendaftaran-pt-menu
 admin/pendaftaran-pt/{pt}
 ```
 
-**/pendaftaran-pt/{pt}**&#x20;
+
+
+4. **/pendaftaran-pt/{pt}**&#x20;
 
 `CARA AKSES`
 
@@ -66,7 +72,7 @@ pendaftaran-pt-show-menu
 
 
 
-**/pengusul**
+5. **/pengusul**
 
 `CARA AKSES`
 
@@ -78,7 +84,9 @@ pengusul-menu
 
 `REDIRECT`
 
-/pengusul/{id\_proposal},&#x20;
+```
+admin/pengusul/{id_proposal}
+```
 
 
 
@@ -98,7 +106,7 @@ pengusul.show-menu
 
 
 
-**/kontrak**
+6. **/kontrak**
 
 `CARA AKSES`
 
@@ -110,11 +118,13 @@ kontrak-menu
 
 `REDIRECT`
 
-kontrak/{id\_kontrak}
+```
+admin/kontrak/{id_kontrak}
+```
 
 
 
-**`/diksi-kontrak (skip dulu)`**
+7. **`/diksi-kontrak (skip dulu)`**
 
 `CARA AKSES`\
 
@@ -127,7 +137,7 @@ diksi-kontrak-menu
 
 
 
-**/kontrak/merge-dokumen-kontrak**
+8. **/kontrak/merge-dokumen-kontrak**
 
 `CARA AKSES`
 
@@ -144,7 +154,7 @@ kontrak.merge-dokumen-kontrak
 \
 
 
-**/kontrak/{id\_kontrak}**
+9. **/kontrak/{id\_kontrak}**
 
 `CARA AKSES`
 
@@ -160,7 +170,7 @@ kontrak.show-menu
 
 
 
-**/kontrak/{kontrak\_id}/upload/{kategori\_berkas\_id} (ini juga skip dulu)**
+10. **/kontrak/{kontrak\_id}/upload/{kategori\_berkas\_id} (ini juga skip dulu)**
 
 `CARA AKSES`&#x20;
 
@@ -172,10 +182,9 @@ kontrak.show-menu
 
 `REDIRECT`
 
-\
 
 
-**/kontrak/{kontrak\_id}/verifikasi/{kategori\_berkas\_id}  (ini juga skip dulu)**
+11. **/kontrak/{kontrak\_id}/verifikasi/{kategori\_berkas\_id}  (ini juga skip dulu)**
 
 `CARA AKSES`&#x20;
 
@@ -192,7 +201,7 @@ kontrak.show-menu
 \
 
 
-**`/kontrak/{kontrak_id}/preview/{kategori_berkas_id} (ini juga skip dulu)`**
+12. **/kontrak/{kontrak\_id}/preview/{kategori\_berkas\_id} (ini juga skip dulu)**
 
 `[CARA AKSES]`&#x20;
 
@@ -204,7 +213,7 @@ kontrak.show-menu
 
 
 
-`/mitra (On Going)`
+13. **/mitra (On Going)**
 
 `[CARA AKSES]`&#x20;
 
@@ -220,7 +229,7 @@ mitra-menu
 
 
 
-`/reviewer`
+14. **/reviewer**
 
 `[CARA AKSES]`&#x20;
 
@@ -232,11 +241,13 @@ reviewer-menu
 
 `[REDIRECT]`&#x20;
 
+```
 admin/reviewer/{id}
+```
 
 
 
-**`/reviewer/{id}`**
+15. **/reviewer/{id}**
 
 `[CARA AKSES]`&#x20;
 
@@ -248,11 +259,13 @@ reviewer-show-menu
 
 `[REDIRECT]`&#x20;
 
-admin/pegusul/{id\_proposal}
+```
+admin/pegusul/{id_proposal}
+```
 
 
 
-**`/user-management`**
+16. **/user-management**
 
 `[CARA AKSES]`&#x20;
 
@@ -268,7 +281,7 @@ user-management-menu
 
 
 
-**`/manajemen-pengumuman`**
+17. **/manajemen-pengumuman**
 
 **\[CARA AKSES]**&#x20;
 
@@ -284,7 +297,7 @@ Manajemen-pengumuman &#x20;
 
 
 
-**`/statistik (Skip dulu)`**
+18. **/statistik (Skip dulu)**
 
 `[CARA AKSES]`&#x20;
 
@@ -300,7 +313,7 @@ akses-statistik
 
 
 
-**`/statistik-2024 (Skip dulu)`**
+19. **/statistik-2024 (Skip dulu)**
 
 `[CARA AKSES]`&#x20;
 
@@ -316,7 +329,7 @@ akses-statistik-2024
 
 
 
-**`/monitoring`**
+20. **/monitoring**
 
 `[CARA AKSES]`&#x20;
 
@@ -332,7 +345,7 @@ Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoff
 
 
 
-`/pusatbantuan (Skip dulu)`
+21. **/pusatbantuan**
 
 `[CARA AKSES]`&#x20;
 
@@ -348,7 +361,7 @@ Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoff
 
 
 
-**`/export`**
+22. **/export**
 
 `[CARA AKSES]`&#x20;
 
@@ -364,7 +377,7 @@ export-document
 
 
 
-**`/seminar-hasil-2022-dikti`**
+23. **/seminar-hasil-2022-dikti**
 
 `[CARA AKSES]`&#x20;
 
@@ -376,11 +389,13 @@ seminar-admin
 
 `[REDIRECT]`&#x20;
 
-/seminar-hasil-2022-dikti/{id\_proposal}
+```
+/seminar-hasil-2022-dikti/{id_proposal}
+```
 
 
 
-**`/seminar-hasil-2022-dikti/{id_proposal}`**
+24. **/seminar-hasil-2022-dikti/{id\_proposal}**
 
 `[CARA AKSES]`&#x20;
 
@@ -396,7 +411,7 @@ seminar-admin
 
 
 
-**`seminar-hasil-diksi/2022`**&#x20;
+25. **seminar-hasil-diksi/2022**&#x20;
 
 `[CARA AKSES]`&#x20;
 
@@ -408,13 +423,13 @@ seminar-admin-diksi
 
 `[REDIRECT]`&#x20;
 
-/seminar-hasil-diksi/{fiscal\_year}/{id\_proposal}
+```
+/seminar-hasil-diksi/{fiscal_year}/{id_proposal}
+```
 
-\-
 
 
-
-**`seminar-hasil-diksi/2023 (Skip Dulu)`**
+26. **seminar-hasil-diksi/2023 (Skip Dulu)**
 
 `[CARA AKSES]`&#x20;
 
@@ -430,7 +445,7 @@ seminar-admin-diksi
 
 
 
-**`/seminar-hasil-diksi/{fiscal_year}/{id_proposal}`**
+27. **/seminar-hasil-diksi/{fiscal\_year}/{id\_proposal}**
 
 `[CARA AKSES]`&#x20;
 
@@ -446,7 +461,7 @@ seminar-admin-diksi
 
 
 
-**`/pencairan`**
+28. **/pencairan**
 
 `[CARA AKSES]`&#x20;
 
@@ -458,11 +473,13 @@ pencairan-admin-index
 
 `[REDIRECT]`&#x20;
 
+```
 /pencairan/{id}
+```
 
 
 
-**`/pencairan/{id}`**
+29. **/pencairan/{id}**
 
 `[CARA AKSES]`&#x20;
 
@@ -478,7 +495,7 @@ pencairan-admin-index
 
 
 
-**`/kontrak/{id_kontrak}/pencairan-tahap-2`**
+30. **/kontrak/{id\_kontrak}/pencairan-tahap-2**
 
 `[CARA AKSES]`&#x20;
 
@@ -494,7 +511,7 @@ pencairan-tahap-2
 
 
 
-**`/kontrak/{pencairan_id}/unggah-berkas-tahap-2 (Skip Dulu)`**
+31. **/kontrak/{pencairan\_id}/unggah-berkas-tahap-2 (Skip Dulu)**
 
 `[CARA AKSES]`&#x20;
 
@@ -508,11 +525,11 @@ pencairan-tahap-2
 
 
 
-`/kontrak/{pencairan_id}/tanda-tangan-berkas-tahap-2 (Skip Dulu)`
+32. **/kontrak/{pencairan\_id}/tanda-tangan-berkas-tahap-2 (Skip Dulu)**
 
 `[CARA AKSES]`&#x20;
 
-
+\-
 
 `[PERMISSION]`&#x20;
 
@@ -522,11 +539,9 @@ pencairan-tahap-2
 
 \-
 
-\
-\
 
 
-**`/kontrak/{pencairan_id}/kelengkapan-berkas-tahap-2(Skip Dulu)`**
+33. **/kontrak/{pencairan\_id}/kelengkapan-berkas-tahap-2(Skip Dulu)**
 
 `[CARA AKSES]`&#x20;
 
@@ -543,11 +558,11 @@ pencairan-tahap-2
 \
 
 
-**`/izin-impor`**
+34. **/izin-impor**
 
 `[CARA AKSES]`&#x20;
 
-1. Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Izin Import pada dropdown.
+Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Izin Import pada dropdown.
 
 `[PERMISSION]`&#x20;
 
@@ -555,11 +570,17 @@ izin-impor
 
 `[REDIRECT]`&#x20;
 
-/izin-impor/buat, /izin-impor/{id\_izin\_impor},
+```
+/izin-impor/buat,
+```
+
+```
+/izin-impor/{id_izin_impor}
+```
 
 
 
-**`/izin-impor/buat`**
+35. **/izin-impor/buat**
 
 `[CARA AKSES]`&#x20;
 
@@ -573,7 +594,7 @@ izin-impor
 
 
 
-**`/izin-impor/{id_izin_impor}`**
+36. **/izin-impor/{id\_izin\_impor}**
 
 `[CARA AKSES]`&#x20;
 
@@ -591,7 +612,7 @@ izin-impor
 
 ### ADMIN VOLUNTEER
 
-**`/pengusul`**
+1. **/pengusul**
 
 `[CARA AKSES]`&#x20;
 
@@ -606,9 +627,11 @@ volunteer-pengusul-menu
 \
 
 
-**`/pengusul/{id_proposal}`**
+2. **/pengusul/{id\_proposal}**
 
 `[CARA AKSES]`&#x20;
+
+
 
 `[PERMISSION]`&#x20;
 
@@ -620,7 +643,7 @@ volunteer-show-pengusul-menu
 
 ### REVIEWER
 
-**`reviewer/`**
+1. **reviewer/**
 
 `[CARA AKSES]`&#x20;
 
@@ -632,40 +655,17 @@ index-tugas-menu
 
 `[REDIRECT]`&#x20;
 
-reviewer/evaluasi-proposal/{id-proposal}, reviewer/presentasi-proposal/{id-proposal},&#x20;
+```
+reviewer/evaluasi-proposal/{id-proposal}
+```
 
-\
-
-
-**`/tugas/{tugas}`**
-
-`[CARA AKSES]`&#x20;
-
+```
+reviewer/presentasi-proposal/{id-proposal}
+```
 
 
-`[PERMISSION]`&#x20;
 
-show-tugas-menu
-
-`[REDIRECT]`&#x20;
-
-\
-
-
-**`/tugas-semhas/{fiscal_year}/{tugas}`**
-
-`[CARA AKSES]`&#x20;
-
-`[PERMISSION]`&#x20;
-
-show-tugas-menu
-
-`[REDIRECT]`&#x20;
-
-\
-
-
-**`/tugas-monev-2023/{tugas}`**
+2. **/tugas/{tugas}**
 
 `[CARA AKSES]`&#x20;
 
@@ -679,7 +679,34 @@ show-tugas-menu
 
 
 
-**`/evaluasi-proposal/{tugas}`**
+3. **/tugas-semhas/{fiscal\_year}/{tugas}**
+
+`[CARA AKSES]`&#x20;
+
+`[PERMISSION]`&#x20;
+
+show-tugas-menu
+
+`[REDIRECT]`&#x20;
+
+\
+
+
+4. **/tugas-monev-2023/{tugas}**
+
+`[CARA AKSES]`&#x20;
+
+
+
+`[PERMISSION]`&#x20;
+
+show-tugas-menu
+
+`[REDIRECT]`&#x20;
+
+
+
+5. **/evaluasi-proposal/{tugas}**
 
 `[CARA AKSES]`&#x20;
 
@@ -692,7 +719,7 @@ show-tugas-menu
 \
 
 
-**`/presentasi-proposal/{tugas}`**
+6. **/presentasi-proposal/{tugas}**
 
 `[CARA AKSES]`&#x20;
 
@@ -704,7 +731,7 @@ show-tugas-menu
 
 \-
 
-**`/veka/{tugas}`**
+7. **/veka/{tugas}**
 
 `[CARA AKSES]`&#x20;
 
@@ -720,7 +747,7 @@ show-tugas-menu
 
 ### UNIT PENGELOLA
 
-**`/pengusul`**
+1. **/pengusul**
 
 `[CARA AKSES]`&#x20;
 
@@ -732,7 +759,7 @@ up-index-proposal-menu
 
 
 
-**`/pengusul/{id_proposal}`**
+2. **/pengusul/{id\_proposal}**
 
 `[CARA AKSES]`&#x20;
 
@@ -744,7 +771,7 @@ up-show-proposal-menu
 
 
 
-**`/kontrak`**
+3. **/kontrak**
 
 `[CARA AKSES]`&#x20;
 
@@ -756,7 +783,7 @@ up-index-kontrak-menu
 
 
 
-**`/kontrak/create`**
+4. **/kontrak/create**
 
 `[CARA AKSES]`&#x20;
 
@@ -768,7 +795,7 @@ up-index-kontrak-menu
 
 
 
-**`/kontrak/{id_kontrak}`**
+5. **/kontrak/{id\_kontrak}**
 
 `[CARA AKSES]`&#x20;
 
@@ -780,7 +807,7 @@ up-show-kontrak-menu
 
 
 
-**`/kontrak/{kontrak_id}/verifikasi/{kategori_berkas_id}`**
+6. **/kontrak/{kontrak\_id}/verifikasi/{kategori\_berkas\_id}**
 
 `[CARA AKSES]`&#x20;
 
@@ -790,11 +817,9 @@ up-show-kontrak-menu
 
 `[REDIRECT]`&#x20;
 
-\
-\
 
 
-**`/izin-impor`**
+7. **/izin-impor**
 
 `[CARA AKSES]`&#x20;
 
@@ -806,9 +831,7 @@ up-izin-impor
 
 
 
-
-
-**`/izin-impor/buat`**
+8. **/izin-impor/buat**
 
 `[CARA AKSES]`&#x20;
 
@@ -820,7 +843,7 @@ up-izin-impor
 
 
 
-**`/izin-impor/{id_izin_impor}`**
+8. **/izin-impor/{id\_izin\_impor}**
 
 `[CARA AKSES]`&#x20;
 
@@ -830,11 +853,9 @@ up-izin-impor
 
 `[REDIRECT]`&#x20;
 
-\
-\
 
 
-**`/laporan`**
+9. **/laporan**
 
 `[CARA AKSES]`&#x20;
 
@@ -937,7 +958,7 @@ system-description-proposal
 
 ### PENGUSUL
 
-**`pengusul/`**
+1. **pengusul/**
 
 `[CARA AKSES]`
 
@@ -953,12 +974,13 @@ pengusul-dashboard
 
 `[REDIRECT]`&#x20;
 
-/pengusul/proposal/{id\_proposal
+```
+/pengusul/proposal/{id_proposal
+```
 
-\
 
 
-**`/proposal/{proposal}`**
+2. **/proposal/{proposal}**
 
 `[CARA AKSES]`&#x20;
 
@@ -970,7 +992,7 @@ pengusul-show-proposal
 
 
 
-**`/pengajuan-proposal`**
+3. **/pengajuan-proposal**
 
 **`[CARA AKSES]`**&#x20;
 
@@ -983,7 +1005,7 @@ pengusul-pengajuan
 \
 
 
-**`/usulan/{id_proposal}`**
+4. **/usulan/{id\_proposal}**
 
 \[CARA AKSES]&#x20;
 
