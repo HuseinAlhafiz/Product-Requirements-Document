@@ -1,12 +1,14 @@
 # Model
 
-### TkaiUser
+## TkaiUser
 
-**`Deskripsi`**
+***
 
-Berisi data user yang mendaftar didalam kedaireka
+#### **Deskripsi**
 
-**`Struktur`**
+**TkaiUser berisi data yang mendaftar didalam kedaireka**
+
+**Struktur**
 
 <table><thead><tr><th width="70">No</th><th width="143">Nama Kolom</th><th width="113">Tipe Data</th><th>Nama Kolom</th></tr></thead><tbody><tr><td>1</td><td>user_id</td><td>integer</td><td>Berfungsi untuk memberikan id untuk user</td></tr><tr><td>2</td><td>email</td><td>string</td><td>Berfungsi untuk menyimpan alamat email pengguna</td></tr><tr><td>3</td><td>phone</td><td>string</td><td>Berfungsi untuk menyimpan nomor telepon pengguna</td></tr><tr><td>4</td><td>password</td><td>string</td><td>Berfungsi untuk menyimpan kata sandi pengguna</td></tr><tr><td>5</td><td>type</td><td>integer</td><td>Berfungsi untuk menyimpan jenis atau kategori</td></tr><tr><td>6</td><td>is_active</td><td>string</td><td>Berfungsi untuk menunjukkan status aktif</td></tr><tr><td>7</td><td>created_at</td><td>timestamp</td><td>Berfungsi untuk menyimpan tanggal dan waktu.pembuatan data</td></tr><tr><td>8</td><td>created_by</td><td>string</td><td>Berfungsi untuk menyimpan nama pengguna pembuat data</td></tr><tr><td>9</td><td>updated_at</td><td>timestamp</td><td>Berfungsi untuk menyimpan tanggal dan waktu terakhir kali perubahan data</td></tr><tr><td>10</td><td>updated_by</td><td>string</td><td>Berfungsi untuk menyimpan nama pengguna yang melakukan perubahan data</td></tr><tr><td>11</td><td>name</td><td>string</td><td>Berfungsi untuk menyimpan nama dari pengguna</td></tr><tr><td>12</td><td>deleted_at</td><td>timestamp</td><td>Berfungsi untuk menyimpan tanggal dan waktu terakhir data dihapus</td></tr><tr><td>13</td><td>deleted_by</td><td>string</td><td>Berfungsi untuk meyimpan nama pengguna yang melakukan penhapusan data</td></tr></tbody></table>
 
@@ -14,25 +16,27 @@ Berisi data user yang mendaftar didalam kedaireka
 
 [tkaiI\_profile\_innovator](model.md#tkaiprofileinnovator), [tkai\_profile\_industry](model.md#tkaiprofileindustry), [tkai\_bo\_user](model.md#tkaibouser)
 
+## TkaiBoUser
 
+***
 
-### TkaiBoUser
+**Deskripsi**
 
-**`Deskripsi`**
-
-Berisi seluruh data user backoffice yang terelasi dengan tabel tkai\_user
+TkaiBoUser Berisi seluruh data user backoffice yang terelasi dengan tabel tkai\_user
 
 **`Struktur`**
 
-<table><thead><tr><th width="66">No</th><th width="179">Nama Kolom</th><th width="113">Tipe Data</th><th>Deskripsi</th></tr></thead><tbody><tr><td>1</td><td>id</td><td>integer</td><td>Berfungsi untuk id utama TkaiBouser</td></tr><tr><td>2</td><td>email</td><td>string</td><td>Berfungsi untuk menyimpan alamat email pengguna</td></tr><tr><td>3</td><td>auth_key</td><td>string</td><td>Berfungsi untuk memberikan token kepada user sebagai login session</td></tr><tr><td>4</td><td>password</td><td>string</td><td>Berfungsi untuk menyimpan kata sandi pengguna</td></tr><tr><td>5</td><td>role</td><td>integer</td><td>Berfungsi untuk menyimpan role / peran pengguna</td></tr><tr><td>6</td><td>name</td><td>string</td><td>Berfungsi untuk menyimpan nama pengguna</td></tr><tr><td>7</td><td>org_name</td><td>string</td><td>Berfungsi untuk menyimpan nama organisasi pengguna</td></tr><tr><td>8</td><td>phone</td><td>string</td><td>Berfungsi untuk menyimpan nomor telepon pengguna</td></tr><tr><td>9</td><td>education type</td><td>integer</td><td>Berfungsi untuk menyimpan informasi jenis pendidikan</td></tr><tr><td>10</td><td>created_at</td><td>timestamp</td><td>Berfungsi untuk menyimpan tanggal dan waktu.pembuatan data</td></tr><tr><td>11</td><td>updated_at</td><td>timestamp</td><td>Berfungsi untuk menyimpan tanggal dan waktu terakhir kali perubahan data</td></tr><tr><td>12</td><td>email_verified_at</td><td>timestamp</td><td>Berfungsi untuk menyimpan timestamp ketika email pengguna di verifikasi</td></tr><tr><td>13</td><td>remember_token</td><td>string</td><td>Berfungsi untuk otentikasi dan penggunaan "remember me" pada proses autentikasi pengguna</td></tr><tr><td>14</td><td>current_team_id</td><td>int</td><td>Berfungsi untuk menyimpan ID tim saat ini yang terkait dengan pengguna</td></tr><tr><td>15</td><td>profile_photo_path</td><td>string</td><td>Berfungsi untuk menyimpan path atau URL dari foto profil pengguna</td></tr><tr><td>16</td><td>userable_type</td><td>string</td><td>Berfungsi untuk menyimpan</td></tr><tr><td>17</td><td>userable_id</td><td>int</td><td>Berfungsi untuk memberikan ID entitas pengguna yang diberikan oleh userable_type</td></tr><tr><td>18</td><td>type</td><td>int</td><td></td></tr><tr><td>19</td><td>tkai_id</td><td>int</td><td>Berfungsi untuk memberikan id untuk tkai</td></tr></tbody></table>
+<table><thead><tr><th width="66">No</th><th width="175">Nama Kolom</th><th width="122">Tipe Data</th><th>Deskripsi</th></tr></thead><tbody><tr><td>1</td><td>id</td><td>integer</td><td>Berfungsi untuk id utama TkaiBouser</td></tr><tr><td>2</td><td>email</td><td>string</td><td>Berfungsi untuk menyimpan alamat email pengguna</td></tr><tr><td>3</td><td>auth_key</td><td>string</td><td>Berfungsi untuk memberikan token kepada user sebagai login session</td></tr><tr><td>4</td><td>password</td><td>string</td><td>Berfungsi untuk menyimpan kata sandi pengguna</td></tr><tr><td>5</td><td>role</td><td>integer</td><td>Berfungsi untuk menyimpan role / peran pengguna</td></tr><tr><td>6</td><td>name</td><td>string</td><td>Berfungsi untuk menyimpan nama pengguna</td></tr><tr><td>7</td><td>org_name</td><td>string</td><td>Berfungsi untuk menyimpan nama organisasi pengguna</td></tr><tr><td>8</td><td>phone</td><td>string</td><td>Berfungsi untuk menyimpan nomor telepon pengguna</td></tr><tr><td>9</td><td>education type</td><td>integer</td><td>Berfungsi untuk menyimpan informasi jenis pendidikan</td></tr><tr><td>10</td><td>created_at</td><td>timestamp</td><td>Berfungsi untuk menyimpan tanggal dan waktu.pembuatan data</td></tr><tr><td>11</td><td>updated_at</td><td>timestamp</td><td>Berfungsi untuk menyimpan tanggal dan waktu terakhir kali perubahan data</td></tr><tr><td>12</td><td>email_verified_at</td><td>timestamp</td><td>Berfungsi untuk menyimpan timestamp ketika email pengguna di verifikasi</td></tr><tr><td>13</td><td>remember_token</td><td>string</td><td>Berfungsi untuk otentikasi dan penggunaan "remember me" pada proses autentikasi pengguna</td></tr><tr><td>14</td><td>current_team_id</td><td>int</td><td>Berfungsi untuk menyimpan ID tim saat ini yang terkait dengan pengguna</td></tr><tr><td>15</td><td>profile_photo_path</td><td>string</td><td>Berfungsi untuk menyimpan path atau URL dari foto profil pengguna</td></tr><tr><td>16</td><td>userable_type</td><td>string</td><td>Berfungsi untuk menyimpan</td></tr><tr><td>17</td><td>userable_id</td><td>int</td><td>Berfungsi untuk memberikan ID entitas pengguna yang diberikan oleh userable_type</td></tr><tr><td>18</td><td>type</td><td>int</td><td></td></tr><tr><td>19</td><td>tkai_id</td><td>int</td><td>Berfungsi untuk memberikan id untuk tkai</td></tr></tbody></table>
 
 **`Relasi`**
 
 [tkai\_user](model.md#tkaiuser), keuangan\_reviewer, status\_kepegawaian, backoffice\_unit\_pengelola, [tkai\_profile\_innovator](model.md#tkaiprofileinnovator), [tkai\_profile\_industry](model.md#tkaiprofileindustry), [mf\_proposals.](model.md#mfproposal2024)
 
+***
 
+## TkaiProfileInnovator
 
-### TkaiProfileInnovator
+***
 
 **`Deskripsi`**
 
