@@ -127,6 +127,8 @@ sh
 ./sail artisan migrate
 ```
 
+
+
 ### 2. LATAR BELAKANG
 
 Sebagai bagian dari kerangka kebijakan Merdeka Belajar Kampus Merdeka (MBKM), Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi mengimplementasikan berbagai program untuk membangun ekosistem yang mendorong peningkatan mutu dan relevansi pendidikan tinggi di Indonesia. Termasuk diantaranya adalah penawaran berbagai program pendanaan berbasis kompetisi.
@@ -141,12 +143,12 @@ Tujuan utama Program Backoffice Kedaireka adalah untuk mendorong terjadinya kerj
 
 <table><thead><tr><th width="72">No</th><th width="188">User Category</th><th>User Main Activity</th></tr></thead><tbody><tr><td>1</td><td>Admin</td><td>• Mengakses seluruh fitur pengusul.show-menu<br>• Mengakses seluruh fitur pengusul-menu<br>• Mengakses seluruh fitur perguruan-tinggi.show-menu<br>• Mengakses seluruh fitur perguruan-tinggi-menu<br>• Mengakses seluruh fitur action-verifikasi<br>• Mengakses seluruh fitur action-revert-status-verifikasi<br>• Mengakses seluruh fitur kontrak.show-menu<br>• Mengakses seluruh fitur seminar-admin-dksi</td></tr><tr><td>2</td><td>Pengusul</td><td>• Mengakses seluruh fitur pengusul-dashboard<br>• Mengakses seluruh fitur pengusul-pengajuan<br>• Mengakses seluruh fitur pengusul-show-proposal<br>• Mengakses seluruh fitur pengusul-ajukan-proposal</td></tr><tr><td>3</td><td>Tim Reviewer</td><td>• Mengakses seluruh fitur index-tugas-menu<br>• Mengakses seluruh fitur show-tugas-menu</td></tr><tr><td>4</td><td>Unit Pengelola (KUP) di Perguruan Tinggi</td><td>• Mengakses seluruh fitur action-verifikasi<br>• Mengakses seluruh fitur action-revert-status-verifikasi<br>• Mengakses seluruh fitur index-tugas-menu<br>• Mengakses seluruh fitur show-tugas-menu<br>• Mengakses seluruh fitur up-index-proposal-menu<br>• Mengakses seluruh fitur up-show-proposal-menu<br>• Mengakses seluruh fitur up-index-kontrak-menu<br>• Mengakses seluruh fitur up-show-kontrak-menu<br>• Mengakses seluruh fitur up-verif-pra-kontrak</td></tr></tbody></table>
 
-### 5. FITUR YANG DIKEMBANGKAN
+### 5.  FITUR YANG DIKEMBANGKAN
 
 <table><thead><tr><th width="81">No</th><th width="167">Epic</th><th>Feature</th><th></th></tr></thead><tbody><tr><td></td><td></td><td>User</td><td>Admin</td></tr><tr><td>1</td><td>Perguruan Tinggi</td><td>Profiling oleh Admin<br>- Daftar Pengusul<br>- Daftar Industri<br>- Total Kolaborasi dengan Industri<br>- Total Pendanaan</td><td>-</td></tr><tr><td>2</td><td>Mitra</td><td>Login<br>- Daftar Pengusul<br>- Daftar Proposal<br>- Status Pendanaan<br></td><td>Profiling oleh Admin<br>- Daftar Pengusul<br>- Daftar Proposal<br>- Daftar Mitra<br>- Total Kolaborasi dengan Perguruan Tinggi<br>- Total Pendanaan</td></tr><tr><td>3</td><td>Pengusul</td><td>Login<br>- Daftar Proposal<br>- Status Pendanaan<br></td><td>Profiling oleh Admin<br>- Daftar Proposal<br>- Status Pendanaan<br></td></tr></tbody></table>
 
 
 
-
+### 6.TUJUAN
 
 <table><thead><tr><th width="209">Document Owner</th><th>Dimas Ahmad, M. Hilmy, M. Zulkifli, Rian A.P, Husein Alhafiz</th></tr></thead><tbody><tr><td>Designer</td><td>Novita Rahmadhani</td></tr><tr><td>Developers</td><td>Ahmad Jalu F. N. H, Anreas Nugroho, Bintang Rahmatullah, Michael Mervin R, Reza Irvando, Umar Hadi Mukti</td></tr><tr><td>Quality Assurance</td><td>M. Fadly Febrian, M. Ibnu Al Hanif</td></tr><tr><td>Delivery Date</td><td>-</td></tr><tr><td>Sign off Date</td><td>-</td></tr></tbody></table>
