@@ -1,18 +1,18 @@
 # Page
 
-### ADMIN
+## ADMIN
 
 1. **/perguruan-tinggi**
 
-`CARA AKSES`
+#### CARA AKSES
 
 Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard , Pilih navigasi admin (DIKTI), Pilih opsi Perguruan Tinggi pada dropdown.
 
-`PERMISSION`
+#### PERMISSION
 
 perguruan-tinggi-menu
 
-`REDIRECT`&#x20;
+#### REDIRECT&#x20;
 
 ```
 admin/perguruan-tinggi/{pt}
@@ -22,7 +22,7 @@ admin/perguruan-tinggi/{pt}
 
 2. **/perguruan-tinggi/{pt}**
 
-`CARA AKSES`
+#### `CARA AKSES`
 
 Login sebagai super admin kedalam website backoffice kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Perguruan Tinggi pada dropdown, Pilih Perguruan Tinggi yang dituju.
 
