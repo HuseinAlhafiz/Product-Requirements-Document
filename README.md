@@ -2,19 +2,22 @@
 
 ### 1. PETUNJUK INSTALASI
 
-**`Laravel Project Setup Guide`**
+**Laravel Project Setup Guide**
 
+{% hint style="info" %}
 This guide will walk you through the steps required to set up a Laravel project on your local machine. Laravel is a popular PHP framework for building web applications.
+{% endhint %}
 
-`Prerequisites`\
-Before you begin, make sure you have the following installed on your machine:\
-\- required PHP v8.0 or greater\
-\- required Composer v2.5.8 or greater\
-\- required Node.js v18 (with npm or yarn) or greater\
-\- required Git v2.34.1 or greater\
-\- optional Docker v25.0.2 or greater
+**Prerequisites**\
+Before you begin, make sure you have the following installed on your machine:
 
-`Getting Started`
+> \- required PHP v8.0 or greater\
+> \- required Composer v2.5.8 or greater\
+> \- required Node.js v18 (with npm or yarn) or greater\
+> \- required Git v2.34.1 or greater\
+> \- optional Docker v25.0.2 or greater
+
+**Getting Started**
 
 1\. Clone the repository
 
@@ -96,17 +99,14 @@ sh
 php artisan serve
 ```
 
+**Additional Configuration**
 
+> \- Environment Configuration: Update the .env file as per your environment settings (e.g., APP\_DEBUG, APP\_URL, etc.).\
+> \- Database Configuration: Modify the database configuration in the .env file according to your requirements.\
+> \- Cache Configuration: You can configure caching options in the .env file.\
+> \- Queue Configuration: If your application uses queues, configure the queue driver in the .env file.
 
-`Additional Configuration`
-
-\- Environment Configuration: Update the .env file as per your environment settings (e.g., APP\_DEBUG, APP\_URL, etc.).\
-\- Database Configuration: Modify the database configuration in the .env file according to your requirements.\
-\- Cache Configuration: You can configure caching options in the .env file.\
-\- Queue Configuration: If your application uses queues, configure the queue driver in the .env file.\
-
-
-`Run Using Docker`
+**Run Using Docker**
 
 For those of u who prefer using docker when serving the application, please follow these steps below:
 
