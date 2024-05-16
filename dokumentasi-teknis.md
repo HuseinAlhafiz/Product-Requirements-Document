@@ -1,10 +1,10 @@
 # Dokumentasi Teknis
 
-### DAFTAR MITRA&#x20;
+## DAFTAR MITRA&#x20;
 
-(andre)
+***
 
-**`DOKUMENTASI`**
+#### **DOKUMENTASI**
 
 <figure><img src=".gitbook/assets/andre1.jpeg" alt=""><figcaption><p>Tampilan Daftar Mitra</p></figcaption></figure>
 
@@ -12,7 +12,7 @@
 
 <figure><img src=".gitbook/assets/andre_daftarmitra3.jpg" alt=""><figcaption><p>Proposal 2023</p></figcaption></figure>
 
-**`MODEL`**
+#### **MODEL**
 
 2023
 
@@ -24,7 +24,7 @@
 
 
 
-**`RELASI`**
+#### RELASI
 
 Tkai\_industry has many Tkai\_matching\_fund (Proposal 2023)
 
@@ -40,15 +40,17 @@ tkai\_matching\_fund has one proposal\_ditetapkan (sk penetapan dan anggaran dit
 
 
 
-`NAMA KOMPONEN`
+#### NAMA KOMPONEN
 
 <table><thead><tr><th width="79">No</th><th width="288">Nama Folder</th><th>Nama File</th></tr></thead><tbody><tr><td>1</td><td>komponen/mitra/</td><td>list_proposal2023, list_proposal2024</td></tr><tr><td>2</td><td><strong>index</strong> </td><td>show</td></tr><tr><td>3</td><td></td><td></td></tr></tbody></table>
 
-### LIST INNOVATOR
+## LIST INNOVATOR
+
+***
 
 (Mervin)
 
-**`DOKUMENTASI`**
+#### **DOKUMENTASI**
 
 <figure><img src=".gitbook/assets/mervin1.png" alt=""><figcaption><p>Tampilan List Innovator</p></figcaption></figure>
 
@@ -62,11 +64,11 @@ tkai\_matching\_fund has one proposal\_ditetapkan (sk penetapan dan anggaran dit
 
 <figure><img src=".gitbook/assets/mervin 6.png" alt=""><figcaption><p>Filter</p></figcaption></figure>
 
-**`MODEL`**
+#### **MODEL**
 
 <table><thead><tr><th width="75">No</th><th width="288">Model</th><th width="258">Nama Tabel</th><th></th></tr></thead><tbody><tr><td>1</td><td>TkaiInnovator</td><td>tkai_profile_innovator(tkai)</td><td></td></tr><tr><td>2</td><td>MfProposal (24)</td><td>mf_proposals</td><td></td></tr><tr><td>3</td><td>MfProposalPenetapan (24)</td><td>mf_proposal_penetapans</td><td></td></tr><tr><td>4</td><td>TkaiProposal(23)</td><td>tkai_matching_fund</td><td></td></tr><tr><td>5</td><td>ProposalDitetapkan</td><td>proposal_ditetapkans</td><td></td></tr><tr><td>6</td><td>TkaiPerguruanTinggi</td><td>tkai_master_pt</td><td></td></tr></tbody></table>
 
-**`RELASI`**
+#### **RELASI**
 
 tkai\_profile\_innovator belongs to tkai\_user&#x20;
 
@@ -86,13 +88,13 @@ Tkai\_matching\_fund has one proposal\_ditetapkans
 
 **Keanggotaan Proposal**
 
-**`DOKUMENTASI`**
+#### **DOKUMENTASI**
 
 <figure><img src=".gitbook/assets/mervin3.png" alt=""><figcaption></figcaption></figure>
 
 tkai\_profile\_innovator
 
-**`MODEL`**
+#### **MODEL**
 
 <table><thead><tr><th width="87">No</th><th width="288">Model</th><th>Nama Tabel</th></tr></thead><tbody><tr><td>1</td><td>MfProposal</td><td>mf_proposals</td></tr></tbody></table>
 
@@ -108,17 +110,19 @@ Mf\_Proposals has many Mf\_Proposal\_anggotas (Anggota2024)
 
 
 
-`NAMA KOMPONEN`
+#### NAMA KOMPONEN
 
 <table><thead><tr><th width="79">No</th><th width="288">Nama Folder</th><th>Nama File</th></tr></thead><tbody><tr><td>1</td><td>pengusul2024</td><td>keanggotaan-proposal</td></tr><tr><td>2</td><td></td><td></td></tr><tr><td>3</td><td></td><td></td></tr></tbody></table>
 
 
 
-### DETAIL INNOVATOR
+## DETAIL INNOVATOR
+
+***
 
 (Reza)
 
-**`DOKUMENTASI`**
+#### **DOKUMENTASI**
 
 <figure><img src=".gitbook/assets/reza1.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -126,7 +130,7 @@ Mf\_Proposals has many Mf\_Proposal\_anggotas (Anggota2024)
 
 <figure><img src=".gitbook/assets/reza3.jpeg" alt=""><figcaption></figcaption></figure>
 
-**`MODEL`**
+#### **MODEL**
 
 2023
 
@@ -138,7 +142,7 @@ Mf\_Proposals has many Mf\_Proposal\_anggotas (Anggota2024)
 
 
 
-**`RELASI`**
+#### **RELASI**
 
 TkaiInnovator belongs To TkaiUser
 
@@ -162,17 +166,19 @@ TxProposalStatus belong to TkaiProposal
 
 
 
-`NAMA KOMPONEN`
+#### NAMA KOMPONEN
 
 <table><thead><tr><th width="79">No</th><th width="288">Nama Folder</th><th>Nama File</th></tr></thead><tbody><tr><td>1</td><td>Innovator</td><td>Dashboard.php</td></tr><tr><td>2</td><td>Innovator</td><td>Sidebar.php</td></tr><tr><td>3</td><td>Komponen/Innovator</td><td>DaftarKolaborasi.php, DaftarProposal.php, Kolaborasi.php, Proposal2023.php</td></tr><tr><td>4</td><td>Komponen/Proposal2023</td><td>Status2023.php</td></tr></tbody></table>
 
 
 
-### USER MITRA
+## USER MITRA
+
+***
 
 (Umar)
 
-**`DOKUMENTASI`**
+**DOKUMENTASI**
 
 <figure><img src=".gitbook/assets/umar1.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -180,11 +186,11 @@ TxProposalStatus belong to TkaiProposal
 
 <figure><img src=".gitbook/assets/umar3.jpeg" alt=""><figcaption></figcaption></figure>
 
-**`MODEL`**
+#### **MODEL**
 
-<table><thead><tr><th width="79">No</th><th width="288">Model</th><th width="244">Nama Tabel</th><th></th></tr></thead><tbody><tr><td>1</td><td>TkaiUser</td><td>tkai_user</td><td></td></tr><tr><td>2</td><td>User</td><td>tkai_bo_user</td><td></td></tr><tr><td>3</td><td>TkaiIndustry</td><td>tkai_profile_industry</td><td></td></tr><tr><td>4</td><td>TkaiInnovator</td><td>tkai_profile_innovator</td><td></td></tr><tr><td>5</td><td>TkaiProposal</td><td>tkai_matching_fund</td><td></td></tr><tr><td>6</td><td>ProposalDitetapkan</td><td>proposal_ditetapkans</td><td></td></tr><tr><td>7</td><td>MfProposal</td><td>mf_proposals</td><td></td></tr><tr><td>8</td><td>TxProposalStatus</td><td>tx_proposal_status</td><td></td></tr><tr><td>9</td><td>MfProposalAnggaran</td><td>mf_proposal_anggarans</td><td></td></tr><tr><td>10</td><td>MfProposalPenetapan</td><td>mf_proposal_penetapans</td><td></td></tr><tr><td>11</td><td>AnggaranHonorarium</td><td>anggaran_honorarium</td><td></td></tr><tr><td>12</td><td>AnggaranPeralatanPendukung</td><td>anggaran_peralatan_pendukung</td><td></td></tr><tr><td>13</td><td>AnggaranBahanPrototype</td><td>anggaran_bahan_prototype</td><td></td></tr><tr><td>14</td><td>AnggaranPendampingan</td><td>anggaran_pendampingan</td><td></td></tr><tr><td>15</td><td>AnggaranFGD</td><td>anggaran_fgd</td><td></td></tr><tr><td>16</td><td>AnggaranSurvey</td><td>anggaran_survey</td><td></td></tr><tr><td>17</td><td>AnggaranPengujianProduk</td><td>anggaran_pengujian_produk</td><td></td></tr><tr><td>18</td><td>AnggaranPendaftaranHKI</td><td>anggaran_pendaftaran_hki</td><td></td></tr><tr><td>19</td><td>AnggaranBiayaPerjalananDinas</td><td>anggaran_biaya_perjalanan</td><td></td></tr><tr><td>20</td><td>AnggaranBantuanInsentifMahasiswa</td><td>anggaran_bantuan_insentif_mahasiswa</td><td></td></tr><tr><td>21</td><td>AnggaranProdukSkalaTerbatas</td><td>anggaran_produk_skala_terbatas</td><td></td></tr><tr><td>22</td><td>AnggaranPengelolaanProgram</td><td>anggaran_pengelolaan_program</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="79">No</th><th width="288">Model</th><th width="379">Nama Tabel</th></tr></thead><tbody><tr><td>1</td><td>TkaiUser</td><td>tkai_user</td></tr><tr><td>2</td><td>User</td><td>tkai_bo_user</td></tr><tr><td>3</td><td>TkaiIndustry</td><td>tkai_profile_industry</td></tr><tr><td>4</td><td>TkaiInnovator</td><td>tkai_profile_innovator</td></tr><tr><td>5</td><td>TkaiProposal</td><td>tkai_matching_fund</td></tr><tr><td>6</td><td>ProposalDitetapkan</td><td>proposal_ditetapkans</td></tr><tr><td>7</td><td>MfProposal</td><td>mf_proposals</td></tr><tr><td>8</td><td>TxProposalStatus</td><td>tx_proposal_status</td></tr><tr><td>9</td><td>MfProposalAnggaran</td><td>mf_proposal_anggarans</td></tr><tr><td>10</td><td>MfProposalPenetapan</td><td>mf_proposal_penetapans</td></tr><tr><td>11</td><td>AnggaranHonorarium</td><td>anggaran_honorarium</td></tr><tr><td>12</td><td>AnggaranPeralatanPendukung</td><td>anggaran_peralatan_pendukung</td></tr><tr><td>13</td><td>AnggaranBahanPrototype</td><td>anggaran_bahan_prototype</td></tr><tr><td>14</td><td>AnggaranPendampingan</td><td>anggaran_pendampingan</td></tr><tr><td>15</td><td>AnggaranFGD</td><td>anggaran_fgd</td></tr><tr><td>16</td><td>AnggaranSurvey</td><td>anggaran_survey</td></tr><tr><td>17</td><td>AnggaranPengujianProduk</td><td>anggaran_pengujian_produk</td></tr><tr><td>18</td><td>AnggaranPendaftaranHKI</td><td>anggaran_pendaftaran_hki</td></tr><tr><td>19</td><td>AnggaranBiayaPerjalananDinas</td><td>anggaran_biaya_perjalanan</td></tr><tr><td>20</td><td>AnggaranBantuanInsentifMahasiswa</td><td>anggaran_bantuan_insentif_mahasiswa</td></tr><tr><td>21</td><td>AnggaranProdukSkalaTerbatas</td><td>anggaran_produk_skala_terbatas</td></tr><tr><td>22</td><td>AnggaranPengelolaanProgram</td><td>anggaran_pengelolaan_program</td></tr></tbody></table>
 
-**`RELASI`**
+#### **RELASI**
 
 tkai\_profile\_industry belongs to tkai\_user
 
@@ -226,27 +232,27 @@ tkai\_matching\_fund has many anggaran\_produk\_skala\_terbatas
 
 tkai\_matching\_fund has many anggaran\_pengelolaan\_program
 
-`NAMA KOMPONEN`
+#### NAMA KOMPONEN
 
 <table><thead><tr><th width="79">No</th><th width="288">Nama Folder</th><th>Nama File</th></tr></thead><tbody><tr><td>1</td><td>Mitra/User</td><td>ProfileMitra.php</td></tr><tr><td>2</td><td>Mitra/User</td><td>ProposalMitra.php</td></tr><tr><td>3</td><td>Mitra/User</td><td>ProposalMitra2023.php</td></tr><tr><td>4</td><td>Komponen/Mitra/User</td><td>ProfileCard.php</td></tr><tr><td>5</td><td>Komponen/Mitra/User</td><td>PendanaanProposal.php</td></tr><tr><td>6</td><td>Komponen/Mitra/User</td><td>ListProposal.php</td></tr><tr><td>7</td><td>Komponen/Mitra/User/Proposal</td><td>Proposal2023.php</td></tr><tr><td>8</td><td>Komponen/Mitra/User/Proposal</td><td>Proposal2024.php</td></tr></tbody></table>
 
-###
+## UNIT PENGELOLA
 
-### UNIT PENGELOLA
+***
 
 (Bintang)
 
-**`DOKUMENTASI`**
+#### **DOKUMENTASI**
 
 
 
-**`MODEL`**
+#### **MODEL**
 
 <table><thead><tr><th width="75">No</th><th width="288">Model</th><th>Nama Tabel</th></tr></thead><tbody><tr><td>1</td><td>TkaiInnovator</td><td>tkai_profile_innovator</td></tr><tr><td>2</td><td>MfProposal(24)</td><td>mf_proposals</td></tr><tr><td>3</td><td>MfProposalStatus(24)</td><td>mf_proposal_statuses</td></tr><tr><td>4</td><td>TkaiProposal</td><td>tkai_matching_fund</td></tr><tr><td>5</td><td>TxProposalStatus</td><td>tx_proposal_status</td></tr><tr><td>6</td><td>TkaiInnovation</td><td>tkai_innovation</td></tr><tr><td>7</td><td>TkaiMitra</td><td>tkai_profile_industry</td></tr><tr><td>8</td><td>TkaiProposalDes</td><td>tkai_matching_fund_desc</td></tr><tr><td>9</td><td>ProposalDitetapkan</td><td>tkai_matching_fund</td></tr></tbody></table>
 
 
 
-**`RELASI`**
+#### **RELASI**
 
 TkaiInnovator belongs To TkaiUser
 
