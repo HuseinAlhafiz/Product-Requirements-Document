@@ -46,7 +46,9 @@ TkaiProfileInnovator berisi data user yang mendaftar didalam kedaireka dengan ro
 
 #### **Relasi**
 
-user\_id -> [tkai\_user,](model.md#tkaiuser) profile\_id -> proposal, profile\_id -> [proposal2024](model.md#mfproposal2024),
+<table><thead><tr><th width="219">profile_id</th><th width="149">Relasi</th><th>tkai_user</th></tr></thead><tbody><tr><td>profile_id </td><td>Relasi</td><td>proposal</td></tr><tr><td>catatan_monev_id</td><td>Relasi</td><td>catatan_monev</td></tr><tr><td>kontraks_id </td><td>Relasi</td><td>tx_kontrak</td></tr><tr><td>kontrak_id </td><td>Relasi</td><td>kontrak</td></tr><tr><td>berkas_id</td><td>Relasi</td><td>berkas</td></tr></tbody></table>
+
+user\_id -> [tkai\_user,](model.md#tkaiuser) profile\_id -> proposal, profile\_id -> [proposal2024](model.md#mfproposal2024)
 
 ## TkaiProfileIndustry
 
@@ -62,7 +64,13 @@ TkaiProfileIndustry berisi seluruh data mitra yang mendaftar didalam kedaireka d
 
 #### **Relasi**
 
-user\_id -> tkai\_user
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+user\_id -> [tkai\_user](model.md#tkaiuser)
 
 ## MfProposal2024
 
@@ -78,7 +86,7 @@ MfProposal berisi data proposal 2024 yang berelasi dengan banyak tabel
 
 #### Relasi
 
-_skema\_id_ -> mfSkema, _tema\_id_ -> mfTema, _batch\_id_ -> mfBatch, _peneliti\_Dosen_ -> Mf\_Proposal\_Anggota, _peneliti\_Non\_Dosen_ -> Mf\_Proposal\_Anggota, _innovator\_id_ -> Tkai\_Innovator, _industry\_id_ -> tkai\_industry, _boI\_nnovator_ -> Tkai\_Profile\_Innovator, _bo\_Industri_ -> tkai\_Profile\_Industry, _bidable\_id_ -> , _berkas\_id_ -> berkas, _status\_id_ -> Mf\_Proposal\_Status, _props\_id_ -> Mf\_Proposal\_Property, _reviewer\_id_ -> Review\_Penugasan, _tag\_id_ -> Tagging, _jadwal\_seleksi_ -> Proposal\_Jadwal\_Seleksi, _jadwal\_Seleksi\_EvaluasiProposal_ -> jadwal\_Seleksi, _pembanding\_id_ -> Mf\_Proposal\_Similarity, _anggarans\_id_ -> Mf\_Proposal\_Anggaran, _luarans\_id_ -> Mf\_Proposal\_Luaran, _penetapan\_id_ -> Mf\_Proposal\_Penetapan, _get\_Jadwal\_Evaluasi\_Proposal Attribute_ -> penyaluran\_id -> Mf\_Proposal\_Penyaluran\_Dana
+<table><thead><tr><th width="226">skema_id </th><th width="149">Relasi</th><th>mfSkema</th></tr></thead><tbody><tr><td>rekening_Kontrak_id </td><td>Relasi</td><td>rekening_kontrak</td></tr><tr><td><em>tema_id</em></td><td>Relasi</td><td>mfTema</td></tr><tr><td><em>batch_id</em></td><td>Relasi</td><td>mfBatch,</td></tr><tr><td><em>peneliti_Dosen</em> </td><td>Relasi</td><td>Mf_Proposal_Anggota</td></tr><tr><td><em>peneliti_Non_Dosen</em> </td><td>Relasi</td><td>Mf_Proposal_Anggota</td></tr><tr><td><em>innovator_id</em> </td><td>Relasi</td><td>Tkai_Innovator</td></tr><tr><td><em>industry_id</em> </td><td>Relasi</td><td>tkai_industry</td></tr><tr><td><em>boI_nnovator</em> </td><td>Relasi</td><td>Tkai_Profile_Innovator</td></tr><tr><td><em>bo_Industri</em> </td><td>Relasi</td><td>tkai_Profile_Industry</td></tr><tr><td><em>bidable_id</em> </td><td>Relasi</td><td></td></tr><tr><td><em>status_id</em> </td><td>Relasi</td><td>Mf_Proposal_Status</td></tr><tr><td><em>props_id</em> </td><td>Relasi</td><td>Mf_Proposal_Property</td></tr><tr><td><em>reviewer_id</em> </td><td>Relasi</td><td>Review_Penugasan</td></tr><tr><td><em>tag_id</em></td><td>Relasi</td><td>Tagging</td></tr><tr><td><em>jadwal_seleksi</em></td><td>Relasi</td><td>Proposal_Jadwal_Seleksi</td></tr><tr><td><em>jadwal_Seleksi_EvaluasiProposal</em></td><td>Relasi</td><td>jadwal_Seleksi</td></tr><tr><td><em>pembanding_id</em></td><td>Relasi</td><td>Mf_Proposal_Similarity</td></tr><tr><td><em>anggarans_id</em></td><td>Relasi</td><td>Mf_Proposal_Anggaran</td></tr><tr><td><em>luarans_id</em></td><td>Relasi</td><td>Mf_Proposal_Luaran</td></tr><tr><td><em>penetapan_id</em></td><td>Relasi</td><td>Mf_Proposal_Penetapan</td></tr><tr><td>penyaluran_id -</td><td>Relasi</td><td>Mf_Proposal_Penyaluran_Dana</td></tr></tbody></table>
 
 
 
@@ -96,5 +104,19 @@ Perguruan Tinggi Berisi data proposal 2024 yang berelasi dengan banyak tabel
 
 #### Relasi
 
-penanggung\_jawab\_id -> penanggung\_jawab, rekening\_Kontrak\_id -> rekening\_kontrak, catatan\_monev\_id -> catatan\_monev, kontraks\_id -> tx\_kontrak, kontrak\_id -> kontrak, berkas\_id -> berkas
+<table><thead><tr><th width="219">penanggung_jawab_id</th><th width="149">Relasi</th><th>penanggung_jawab</th></tr></thead><tbody><tr><td>rekening_Kontrak_id </td><td>Relasi</td><td>rekening_kontrak</td></tr><tr><td>catatan_monev_id</td><td>Relasi</td><td>catatan_monev</td></tr><tr><td>kontraks_id </td><td>Relasi</td><td>tx_kontrak</td></tr><tr><td>kontrak_id </td><td>Relasi</td><td>kontrak</td></tr><tr><td>berkas_id</td><td>Relasi</td><td>berkas</td></tr></tbody></table>
+
+
+
+penanggung\_jawab\_id -> penanggung\_jawab,&#x20;
+
+rekening\_Kontrak\_id -> rekening\_kontrak,&#x20;
+
+catatan\_monev\_id -> catatan\_monev,&#x20;
+
+kontraks\_id -> tx\_kontrak,&#x20;
+
+kontrak\_id -> kontrak,&#x20;
+
+berkas\_id -> berkas
 

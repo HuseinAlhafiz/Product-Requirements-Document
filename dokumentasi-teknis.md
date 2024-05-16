@@ -4,7 +4,7 @@
 
 ***
 
-### LIST INNOVATOR
+### List Innovator
 
 #### **DOKUMENTASI**
 
@@ -52,7 +52,7 @@ tkai\_profile\_innovator
 
 <table><thead><tr><th width="79">No</th><th width="288">Nama Folder</th><th>Nama File</th></tr></thead><tbody><tr><td>1</td><td>pengusul2024</td><td>keanggotaan-proposal</td></tr></tbody></table>
 
-### DETAIL INNOVATOR
+### Detail Innovator
 
 ***
 
@@ -110,7 +110,7 @@ TxProposalStatus belong to TkaiProposal
 
 ***
 
-### USER MITRA
+### User Mitra
 
 **DOKUMENTASI**
 
@@ -136,7 +136,7 @@ TxProposalStatus belong to TkaiProposal
 
 
 
-### DAFTAR MITRA&#x20;
+### Daftar Mitra&#x20;
 
 #### **DOKUMENTASI**
 
@@ -168,7 +168,7 @@ TxProposalStatus belong to TkaiProposal
 
 ***
 
-### UNIT PENGELOLA
+### Unit Pengelola
 
 (Bintang)
 
