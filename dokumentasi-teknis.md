@@ -1,6 +1,6 @@
 # Dokumentasi Teknis
 
-## PENGUSUL
+## INNOVATOR
 
 ***
 
@@ -19,6 +19,10 @@
 <figure><img src=".gitbook/assets/mervin5.png" alt=""><figcaption><p>Filter Perguruan Tinggi</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/mervin 6.png" alt=""><figcaption><p>Filter</p></figcaption></figure>
+
+####
+
+<table><thead><tr><th width="70">No</th><th width="155">Fitur</th><th width="217">Deskripsi </th><th width="241">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>1</td><td>List dan Filter Innovator</td><td>List dan Filter </td><td>tkai_profile_innovator(tkai)</td><td></td></tr><tr><td>2</td><td></td><td>MfProposal (24)</td><td>mf_proposals</td><td></td></tr><tr><td>3</td><td></td><td>MfProposalPenetapan (24)</td><td>mf_proposal_penetapans</td><td></td></tr><tr><td>4</td><td></td><td>TkaiProposal(23)</td><td>tkai_matching_fund</td><td></td></tr><tr><td>5</td><td></td><td>ProposalDitetapkan</td><td>proposal_ditetapkans</td><td></td></tr><tr><td>6</td><td></td><td>TkaiPerguruanTinggi</td><td>tkai_master_pt</td><td></td></tr></tbody></table>
 
 #### **MODEL**
 
