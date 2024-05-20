@@ -631,7 +631,7 @@ Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoff
 pencairan-admin-index
 ```
 
-#### REDIRECT
+#### Redirect
 
 ```
 /pencairan/{id}
@@ -639,132 +639,172 @@ pencairan-admin-index
 
 ***
 
+#### **NAMA PAGE**
+
 29. **/pencairan/{id}**
 
-#### CARA AKSES
+#### Cara Akses
 
 Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Daftar Pencairan pada dropdown.
 
-\[PERMISSION]&#x20;
+#### Permission
 
+```
 pencairan-admin-index
+```
 
-#### REDIRECT
+#### Redirect
 
-\-
+```
+```
 
+***
 
+#### **NAMA PAGE**
 
 30. **/kontrak/{id\_kontrak}/pencairan-tahap-2**
 
-#### CARA AKSES
+#### Cara Akses
 
 Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Kontrak PDP 2024 pada dropdown, Pilih Kontrak yang dituju dengan mengetuk ikon pencarian "searchbar".
 
-#### PERMISSION
+#### Permission
 
+```
 pencairan-tahap-2
+```
 
-#### REDIRECT
+#### Redirect
 
-\-
+```
+-
+```
 
+***
 
+#### **NAMA PAGE**
 
 31. **/kontrak/{pencairan\_id}/unggah-berkas-tahap-2 (Skip Dulu)**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
-\-
+```
+-
+```
 
-#### REDIRECT
+#### Redirect
 
-\-
+```
+-
+```
 
+***
 
+#### **NAMA PAGE**
 
 32. **/kontrak/{pencairan\_id}/tanda-tangan-berkas-tahap-2 (Skip Dulu)**
 
-#### CARA AKSES
+#### Cara Akses
 
-\-
+#### Permission
 
-#### PERMISSION
+```
+-
+```
 
-\-
+#### Redirect
 
-#### REDIRECT
+```
+-
+```
 
-\-
+***
 
-
+#### **NAMA PAGE**
 
 33. **/kontrak/{pencairan\_id}/kelengkapan-berkas-tahap-2(Skip Dulu)**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
-\-
+```
+-
+```
 
-#### REDIRECT
+#### Redirect
 
-\-
+```
+-
+```
 
-\
+***
 
+#### **NAMA PAGE**
 
 34. **/izin-impor**
 
-#### CARA AKSES
+#### Cara Akses
 
 Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Izin Import pada dropdown.
 
-#### PERMISSION
+#### Permission
 
+```
 izin-impor
-
-#### REDIRECT
-
-```
-/izin-impor/buat,
 ```
 
+#### Redirect
+
 ```
-/izin-impor/{id_izin_impor}
+/izin-impor/buat, /izin-impor/{id_izin_impor}
 ```
 
+***
 
+#### **NAMA PAGE**
 
 35. **/izin-impor/buat**
 
-#### CARA AKSES
+#### Cara Akses
 
 Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Izin Import pada dropdown, Pilih button “Buat Pengajuan”
 
-#### PERMISSION
+#### Permission
 
+```
 izin-impor
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+#### **NAMA PAGE**
 
 36. **/izin-impor/{id\_izin\_impor}**
 
-#### CARA AKSES
+#### Cara Akses
 
 Login sebagai super admin ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Izin Import pada dropdown, Pilih Daftar Pengajuan Izin Impor yang dituju dengan mengetuk ikon pencarian "searchbar".
 
-#### PERMISSION&#x20;
+#### Permission
 
+```
 izin-impor
+```
 
-#### REDIRECT
+#### Redirect
 
-\-
+```
+-
+```
 
 
 
@@ -772,28 +812,42 @@ izin-impor
 
 ***
 
+#### **NAMA PAGE**
+
 1. **/pengusul**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 volunteer-pengusul-menu
+```
 
-#### REDIRECT
+#### Redirect
 
-\
+```
+-
+```
 
+***
+
+#### **NAMA PAGE**
 
 2. **/pengusul/{id\_proposal}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 volunteer-show-pengusul-menu
+```
 
-#### REDIRECT
+#### Redirect
+
+```
+```
 
 
 
@@ -801,101 +855,142 @@ volunteer-show-pengusul-menu
 
 ***
 
+#### **NAMA PAGE**
+
 1. **reviewer/**
 
-#### CARA AKSES
+#### Cara Akses
 
 Login sebagai reviewer ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
 
-#### PERMISSION
+#### Permission
 
 index-tugas-menu
 
-#### REDIRECT
+#### Redirect
 
 ```
-reviewer/evaluasi-proposal/{id-proposal}
+reviewer/evaluasi-proposal/{id-proposal}, reviewer/presentasi-proposal/{id-proposal}
 ```
 
-```
-reviewer/presentasi-proposal/{id-proposal}
-```
+***
 
-
+#### **NAMA PAGE**
 
 2. **/tugas/{tugas}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 show-tugas-menu
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+```
 
+***
+
+#### **NAMA PAGE**
 
 3. **/tugas-semhas/{fiscal\_year}/{tugas}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 show-tugas-menu
+```
 
-#### REDIRECT
+#### Redirect
 
-\
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 4. **/tugas-monev-2023/{tugas}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 show-tugas-menu
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 5. **/evaluasi-proposal/{tugas}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
-\-
+```
+-
+```
 
-#### REDIRECT
+#### Redirect
 
-\
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 6. **/presentasi-proposal/{tugas}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
-\-
+```
+-
+```
 
-#### REDIRECT
+#### Redirect
 
-\-
+```
+-
+```
+
+***
+
+**NAMA PAGE**
 
 7. **/veka/{tugas}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
-\-
+```
+-
+```
 
-#### REDIRECT
+#### Redirect
 
-\-
+```
+-
+```
 
 
 
@@ -903,123 +998,203 @@ show-tugas-menu
 
 ***
 
+**NAMA PAGE**
+
 1. **/pengusul**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 up-index-proposal-menu
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 2. **/pengusul/{id\_proposal}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 up-show-proposal-menu
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 3. **/kontrak**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 up-index-kontrak-menu
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 4. **/kontrak/create**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 up-index-kontrak-menu
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 5. **/kontrak/{id\_kontrak}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 up-show-kontrak-menu
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 6. **/kontrak/{kontrak\_id}/verifikasi/{kategori\_berkas\_id}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 up-show-kontrak-menu
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 7. **/izin-impor**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 up-izin-impor
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 8. **/izin-impor/buat**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 up-izin-impor
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 8. **/izin-impor/{id\_izin\_impor}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 up-izin-impor
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 9. **/laporan**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
-\-
+```
+up-izin-impor
+```
 
-#### REDIRECT
+#### Redirect
+
+```
+-
+```
 
 
 
@@ -1027,27 +1202,42 @@ up-izin-impor
 
 ***
 
-**`/pendaftaran-pt`**
+**NAMA PAGE**
 
-#### CARA AKSES
+1. **/pendaftaran-pt**
 
-#### PERMISSION
+#### Cara Akses
 
-\-
+#### Permission
 
-#### REDIRECT
+```
+-
+```
 
+#### Redirect
 
+```
+-
+```
 
-**`/edit-pt`**
+***
 
-#### CARA AKSES
+**NAMA PAGE**
 
-#### PERMISSION
+2. **/edit-pt**
 
+#### Cara Akses
+
+#### Permission
+
+```
 operator-daftar-up-menu
+```
 
-#### REDIRECT
+#### Redirect
+
+```
+```
 
 
 
@@ -1055,64 +1245,103 @@ operator-daftar-up-menu
 
 ***
 
-**`status-proposal`**
+**NAMA PAGE**
 
-#### CARA AKSES
+1. **status-proposal**
 
-#### PERMISSION
+#### Cara Akses
 
+#### Permission
+
+```
 system-status-proposal
+```
 
-#### REDIRECT
+#### Redirect
 
-\
+```
+-
+```
 
+***
 
-**`status-proposal/{fund_id}`**
+**NAMA PAGE**
 
-#### CARA AKSES
+2. **status-proposal/{fund\_id}**
 
-#### PERMISSION
+#### Cara Akses
 
+#### Permission
+
+```
 system-status-proposal
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
 
-**`deskripsi-proposal`**
+**NAMA PAGE**
 
-#### CARA AKSES
+3. **deskripsi-proposal**
 
-#### PERMISSION
+#### Cara Akses
 
-\-
+#### Permission
 
-#### REDIRECT
+```
+-
+```
 
+#### Redirect
 
+```
+-
+```
 
-**`deskripsi-proposal/`**
+***
 
-#### CARA AKSES
+**NAMA PAGE**
 
-#### PERMISSION
+4. **deskripsi-proposal/**
 
+#### Cara Akses
+
+#### Permission
+
+```
 system-description-proposal
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
 
-**`/{description_id}`**
+**NAMA PAGE**
 
-#### CARA AKSES
+5. **/{description\_id}**
 
-#### PERMISSION
+#### Cara Akses
 
+#### Permission
+
+```
 system-description-proposal
+```
 
-#### REDIRECT
+#### Redirect
+
+```
+-
+```
 
 
 
