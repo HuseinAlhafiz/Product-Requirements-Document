@@ -1349,60 +1349,83 @@ system-description-proposal
 
 ***
 
+**NAMA PAGE**
+
 1. **pengusul/**
 
-#### CARA AKSES
+#### Cara Akses
 
-1. Login sebagai pengusul ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/).
-2. Masuk ke dalam menu dashboard.
-3. Pilih navigasi admin (DIKTI).
-4. Pilih opsi Izin Import pada dropdown.
-5. Pilih Daftar Pengajuan Izin Impor yang dituju dengan mengetuk ikon pencarian "searchbar".
+Login sebagai pengusul ke dalam website backoffice Kedaireka (https://backoffice.kedaireka.id/), Masuk ke dalam menu dashboard, Pilih navigasi admin (DIKTI), Pilih opsi Izin Import pada dropdown, Pilih Daftar Pengajuan Izin Impor yang dituju dengan mengetuk ikon pencarian "searchbar".
 
-#### PERMISSION
+#### Permission
 
+```
 pengusul-dashboard
+```
 
-#### REDIRECT
+#### Redirect
 
 ```
 /pengusul/proposal/{id_proposal
 ```
 
+***
 
+**NAMA PAGE**
 
 2. **/proposal/{proposal}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 pengusul-show-proposal
+```
 
-#### REDIRECT
+#### Redirect
 
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 3. **/pengajuan-proposal**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 pengusul-pengajuan
+```
 
-#### REDIRECT
+#### Redirect
 
-\
+```
+-
+```
 
+***
+
+**NAMA PAGE**
 
 4. **/usulan/{id\_proposal}**
 
-#### CARA AKSES
+#### Cara Akses
 
-#### PERMISSION
+#### Permission
 
+```
 pengusul-show-proposal
+```
 
-#### REDIRECT
+#### Redirect
+
+```
+-
+```
 
