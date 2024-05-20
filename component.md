@@ -6,44 +6,47 @@
 
 #### Nama Komponen
 
-```
-PergguruanTinggiIndex
-```
-
 > PergguruanTinggiIndex
 
 #### DESKRIPSI
 
-Akses membuka menu daftar perguruan tinggi (tab Perguruan Tinggi)
+PergguruanTinggiIndex berfungsi sebagai akses membuka menu daftar perguruan tinggi (tab Perguruan Tinggi)
 
 #### **VARIABLE**
 
+```
 $search, $perPage, $perPageOptions
+```
 
 #### METHOD
 
+```
 mount(), render()
+```
 
 ***
 
-Nama Komponen
+#### Nama Komponen
 
-PerguruanTinggiShow
+> PerguruanTinggiShow
 
 #### DESKRIPSI
 
-akses membuka detail perguruan tinggi
+PerguruanTinggiShow berfungsi sebagai akses membuka detail perguruan tinggi
 
 #### **VARIABLE**
 
-$kode\_pt,  $search, $canExport = false, $is\_negeri, $tab,  $proposalStatuses $proposal\_status, $jadwal, $allProposalIds, $arr\_penetapan, $statusProposal, $pernah\_revisi, $nomor\_batch&#x20;
+```
+$kode_pt,  $search, $canExport = false, $is_negeri, $tab,  $proposalStatuses $proposal_status, $jadwal, $allProposalIds, $arr_penetapan, $statusProposal, $pernah_revisi, $nomor_batch 
+```
 
 #### METHOD
 
+```
 updatedSearch(), updatedStatusProposal, mount($pt), render(), getPengusuls()
+```
 
-\
-
+***
 
 Nama Komponen
 
