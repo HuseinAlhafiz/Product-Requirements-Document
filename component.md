@@ -1647,7 +1647,7 @@ EditDaftarUp berfungsi sebagai akses membuka formulir pendaftaran Unit Pengelola
 $pj_nama, $pj_alamat, $pj_telp, $pj_nomor, $pj_surel, $up_nama, $up_alamat, $up_telp, $up_nomor, $up_surel, $bp_nama, $bp_nama_ketua, $bp_alamat, $bp_telp, $bp_nomor, $kode_pt, $perguruan, $up;
 ```
 
-#### METHOD
+#### Method
 
 ```
 mount(), render(), rules(), submit()
@@ -1659,158 +1659,176 @@ mount(), render(), rules(), submit()
 
 ***
 
-Nama Komponen
+#### NAMA KOMPONEN
 
-FoIndex
+1. FoIndex
 
-#### DESKRIPSI
+#### Deskripsi
 
-Akses melihat seluruh status proposal pada sistem backoffice
+FoIndex berfungsi sebagai akses melihat seluruh status proposal pada sistem backoffice
 
-#### **VARIABLE**
+#### Variable
 
-$tab, $key, $search\_fundid, $value
+```
+$tab, $key, $search_fundid, $value
+```
 
-#### METHOD
+#### Method
 
-detail($fund\_id), changeTab($tab), render()
+```
+detail($fund_id), changeTab($tab), render()
+```
 
+#### NAMA KOMPONEN
 
+2. **FoShow**
 
-Nama Komponen
+#### Deskripsi
 
-**FoShow**
+**FoShow berfungsi sebagai a**kses melihat seluruh status proposal pada sistem backoffice
 
-#### DESKRIPSI
+#### Variable
 
-Akses melihat seluruh status proposal pada sistem backoffice
-
-#### **VARIABLE**
-
+```
 $proposal, $historyFO, $latestFO, $historyBO, $latestBO, $fullHistory
+```
 
-#### METHOD
+#### Method
 
-mount($fund\_id),loadFullHistory(), render()
+```
+mount($fund_id),loadFullHistory(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-Nama Komponen
+3. ProposalDescriptionIndex
 
-ProposalDescriptionIndex
-
-#### DESKRIPSI
+#### Deskripsi
 
 Akses melihat seluruh deskripsi proposal pada sistem backoffice
 
-#### **VARIABLE**
+#### Variable
 
+```
 $columns
+```
 
-#### METHOD
+#### Method
 
+```
 render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-Nama Komponen
+4. ProposalDescriptionShow
 
-ProposalDescriptionShow
+#### Deskripsi
 
-#### DESKRIPSI
+ProposalDescriptionShow berfungsi sebagai akses melihat seluruh deskripsi proposal pada sistem backoffice
 
-Akses melihat seluruh deskripsi proposal pada sistem backoffice
+#### Variable
 
-#### **VARIABLE**
-
+```
 $proposalDescription
+```
 
-#### METHOD
+#### Method
 
-render(), mount($description\_id)
-
-
+```
+render(), mount($description_id)
+```
 
 ## PENGUSUL
 
 ***
 
-Nama Komponen
+#### NAMA KOMPONEN
 
-Dashboard
+1. Dashboard
 
-#### DESKRIPSI
+#### Deskripsi
 
-Akses pengusul untuk melihat laman informasi pengusul beserta proposal dan daftar kolaborasi
+Dashboard berfungsi sebagai akses pengusul untuk melihat laman informasi pengusul beserta proposal dan daftar kolaborasi
 
-#### **VARIABLE**
+#### Variable
 
+```
 $skemaProposal, $pilihSkemaModal, $innovator
+```
 
-#### METHOD
+#### Method
 
+```
 goesToUnggahProposal(), singkronData(), mount(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-Nama Komponen
+2. Proposal
 
-Proposal
-
-#### DESKRIPSI
+#### Deskripsi
 
 Akses pengusul untuk melihat detail dari proposal yang telah diajukan
 
-#### **VARIABLE**
+#### Variable
 
-$proposal, $tab, $isDiksi&#x20;
+```
+$proposal, $tab, $isDiksi 
+```
 
-#### METHOD
+#### Method
 
+```
 mount(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+3. PengajuanProposal
 
-PengajuanProposal
+#### Deskripsi
 
-#### DESKRIPSI
+PengajuanProposal berfungsi sebagai akses pengusul untuk mengajukan proposal baru untuk masuk ke selesksi administrasi
 
-Akses pengusul untuk mengajukan proposal baru untuk masuk ke selesksi administrasi
+#### Variable
 
-#### **VARIABLE**
+```
+$tahapanPengajuanProposal, $currentTahapPengajuan, $selectedTahapPengajuan, $listSkemaProposal, $showTambahDosenModal, $showTambahNonDosenModal, $daftarNonDosenTerlibat, $isianNamaDosen, $isianNamaNonDosen, $draftProposal, $jenjangPendidikans, $jumlahMahasiswaPerJenjang,  $proposal, $innovatorId, $allTema, $rules, $draftProposalDosenTerlibat, $draftProposalNonDosenTerlibat.
+```
 
-$tahapanPengajuanProposal, $currentTahapPengajuan, $selectedTahapPengajuan, $listSkemaProposal, $showTambahDosenModal, $showTambahNonDosenModal, $daftarNonDosenTerlibat, $isianNamaDosen, $isianNamaNonDosen, $draftProposal, $jenjangPendidikans, $jumlahMahasiswaPerJenjang,  $proposal, $innovatorId, $allTema
+#### Method
 
-$rules, $draftProposalDosenTerlibat, $draftProposalNonDosenTerlibat.
-
-#### METHOD
-
+```
 updatedJumlahMahasiswaPerJenjang(), mount(), moveToTahap($key), saveProposal(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+4. PengusulShowProposal
 
-PengusulShowProposal
+#### Deskripsi
 
-#### DESKRIPSI
+PengusulShowProposal berfungsi sebagai akses pengusul untuk melihat detail dari proposal yang telah diajukan
 
-Akses pengusul untuk melihat detail dari proposal yang telah diajukan
+#### Variable
 
-#### **VARIABLE**
+```
+$isPengusul, public $proposal, $statusProposal, $proposal_desc, $tab, $masterDocuments, $id_proposal, $documents, $riwayatPengusul, proposalHistories, $showProposalHistory, $msgSyncStatus, $formInputSyncStatus, $syncStatusProposalConfirmation $allTxProposalStatus, public $lorem;
+```
 
-$isPengusul, public $proposal, $statusProposal, $proposal\_desc, $tab, $masterDocuments, $id\_proposal, $documents, $riwayatPengusul, proposalHistories, $showProposalHistory, $msgSyncStatus, $formInputSyncStatus, $syncStatusProposalConfirmation $allTxProposalStatus, public $lorem;
+#### Method
 
-#### METHOD
-
-mount(), render()
-
-\
-
-
-\
-
-
-\
+```
+/mount(), render()
+```
