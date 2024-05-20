@@ -72,7 +72,7 @@ mount($pt), updatingSearch(), render()
 
 #### NAMA KOMPONEN
 
-PendaftaranPTShow
+4. PendaftaranPTShow
 
 #### Deskripsi
 
@@ -94,7 +94,7 @@ refreshPage(), mount($pt), simpanKomentar(), simpanKomentarModal(), handleKoment
 
 #### NAMA KOMPONEN
 
-PengusulIndex
+5. PengusulIndex
 
 #### Deskripsi
 
@@ -116,7 +116,7 @@ updatedSearch(), updatedJenisPT(), updatedStatusProposal(), mount(), render(), g
 
 #### NAMA KOMPONEN
 
-PengusulShow
+6. PengusulShow
 
 #### Deskripsi
 
@@ -138,7 +138,7 @@ $proposals, $proposals_desc, $ptab, $tab, $masterDocuments, $id_proposal, $is_vo
 
 #### NAMA KOMPONEN
 
-KontrakIndex
+7. KontrakIndex
 
 #### Deskripsi
 
@@ -161,7 +161,7 @@ updatedFilterJenisKontrak(), mount(), render()
 
 #### NAMA KOMPONEN
 
-KontrakDiksi
+8. KontrakDiksi
 
 #### Deskripsi
 
@@ -183,7 +183,7 @@ mount(), render()
 
 #### NAMA KOMPONEN
 
-MergeDokumenKontrak
+9. MergeDokumenKontrak
 
 #### Deskripsi
 
@@ -205,7 +205,7 @@ mount(), render(), openKontrak($kontrakId)
 
 #### NAMA KOMPONEN
 
-KontrakShow
+10. KontrakShow
 
 #### Deskripsi
 
@@ -227,7 +227,7 @@ mount(), getBerkas(), render(), setEditForm(), updateAdendumKhusus(), downloadAd
 
 #### NAMA KOMPONEN
 
-UpdloadDocumentSigningPage
+11. UpdloadDocumentSigningPage
 
 #### Deskripsi
 
@@ -249,7 +249,7 @@ render(), mount(), evaluateCan(), updateKontrakStatus(), updateTemporaryFile, re
 
 #### NAMA KOMPONEN
 
-VerifyDocumentSigningPage
+12. VerifyDocumentSigningPage
 
 #### Deskripsi
 
@@ -271,7 +271,7 @@ mount(), rendeer(), updateKontrakStatus(), redirectToKontrak(), nextPageToTTE(),
 
 #### NAMA KOMPONEN
 
-ConfigurationTte
+13. ConfigurationTte
 
 #### Deskripsi
 
@@ -293,7 +293,7 @@ render(), mount(), updateKontrakStatus(), updateRecipients($_, $key), updateShow
 
 #### NAMA KOMPONEN
 
-PreviewUploadedDocument
+14. PreviewUploadedDocument
 
 #### Deskripsi
 
@@ -315,7 +315,7 @@ mount(), render(), loadData($user_id = 0), updateKontrakStatus(), queryDocumentH
 
 #### NAMA KOMPONEN
 
-MitraIndex (ON GOING)
+15. MitraIndex&#x20;
 
 #### Deskripsi
 
@@ -337,7 +337,7 @@ render()
 
 #### NAMA KOMPONEN
 
-ReviewerIndex
+16. ReviewerIndex
 
 #### Deskripsi
 
@@ -359,7 +359,7 @@ mount(), render(), openModalReviewerDetail($reviwerId), export()
 
 #### NAMA KOMPONEN
 
-ReviewerShow
+17. ReviewerShow
 
 #### Deskripsi
 
@@ -381,7 +381,7 @@ KesediaanUpdated(), mount($id), render(),
 
 #### NAMA KOMPONEN
 
-UserManagement
+18. UserManagement
 
 #### Deskripsi
 
@@ -403,7 +403,7 @@ render()
 
 #### NAMA KOMPONEN
 
-PengumumanIndex
+19. PengumumanIndex
 
 #### Deskripsi
 
@@ -425,7 +425,7 @@ mount(), updatingSearch(), submit(), ubahPengumuman($id), simpanPerubahan(), ren
 
 #### NAMA KOMPONEN
 
-DashboardStatistikAdmin
+20. DashboardStatistikAdmin
 
 #### Deskripsi
 
@@ -447,7 +447,7 @@ render(), iniData(), updatedTipeProposal(), updatedNomorBatch(), setJumlahPropos
 
 #### NAMA KOMPONEN
 
-DashboardStatistik2024
+21. DashboardStatistik2024
 
 #### Deskripsi
 
@@ -469,7 +469,7 @@ updatedFilterBatch(), updatedJenisPt(), mount(), render()
 
 #### NAMA KOMPONEN
 
-MonitoringIndex
+22. MonitoringIndex
 
 #### Deskripsi
 
@@ -491,7 +491,7 @@ mount(), render()
 
 #### NAMA KOMPONEN
 
-PusatBantuan
+23. PusatBantuan
 
 #### Deskripsi
 
@@ -513,7 +513,7 @@ render()
 
 #### NAMA KOMPONEN
 
-Export
+24. Export
 
 #### Deskripsi
 
@@ -535,7 +535,7 @@ render(), mount(), create(), access(), exportPelaporanDiksi($jenisDokumen, $flag
 
 #### NAMA KOMPONEN
 
-SemHasDiktiIndex
+25. SemHasDiktiIndex
 
 #### Deskripsi
 
@@ -557,7 +557,7 @@ updateSearch(), mount(), render(), getPengusuls($paginate = 0)
 
 #### NAMA KOMPONEN
 
-SeminarHasilShow
+26. SeminarHasilShow
 
 #### Deskripsi
 
@@ -579,7 +579,7 @@ mount(), render(), checkRekonActivation, activateRekon(), loadTabs()
 
 #### NAMA KOMPONEN
 
-SemHasDiksiIndex (2022/2023)
+27. SemHasDiksiIndex (2022/2023)
 
 #### Deskripsi
 
@@ -601,7 +601,7 @@ updateSearch(), mount(), render(), getPengusuls($paginate = 0), getPengusuls2023
 
 #### NAMA KOMPONEN
 
-SemHasDiksiShow
+28. SemHasDiksiShow
 
 #### Deskripsi
 
@@ -623,7 +623,7 @@ mount(), render(), checkRekonActivation(), activateRekon(), loadTabs()
 
 #### NAMA KOMPONEN
 
-PencairanIndex
+29. PencairanIndex
 
 #### Deskripsi
 
@@ -645,7 +645,7 @@ mount(), saveChange($id), showModal($index), generateBerkas($idx), render()
 
 #### NAMA KOMPONEN
 
-PencairanShow&#x20;
+30. PencairanShow&#x20;
 
 #### Deskripsi
 
@@ -667,7 +667,7 @@ render()
 
 #### NAMA KOMPONEN
 
-BuatPencairan2&#x20;
+31. BuatPencairan2&#x20;
 
 #### Deskripsi
 
@@ -689,7 +689,7 @@ mount(), selectProposal($fund_id), createPencairan, render()
 
 #### NAMA KOMPONEN
 
-UnggahBerkasTahap2
+32. UnggahBerkasTahap2
 
 #### Deskripsi
 
@@ -711,7 +711,7 @@ render(), mount($pencairan_id), removeTemporary(), saveTemporary(), removeBerkas
 
 #### NAMA KOMPONEN
 
-TandaTanganBerkasTahap2
+33. TandaTanganBerkasTahap2
 
 #### Deskripsi
 
@@ -733,7 +733,7 @@ render(), mount($pencairan_id), updatedRecipients($_, $key), updatedShowResponse
 
 #### NAMA KOMPONEN
 
-TandaTanganBerkasTahap2
+34. TandaTanganBerkasTahap2
 
 #### Deskripsi
 
@@ -755,7 +755,7 @@ render(), mount($pencairan_id), unggahBerkasPencairanTahap2(), verifikasiDariAdm
 
 #### NAMA KOMPONEN
 
-KelengkapanTanganBerkasTahap2
+35. KelengkapanTanganBerkasTahap2
 
 #### Deskripsi
 
@@ -777,7 +777,7 @@ render(), mount($pencairan_id), unggahBerkasPencairanTahap2(), verifikasiDariAdm
 
 #### NAMA KOMPONEN
 
-DaftarPengajuanImpor
+36. DaftarPengajuanImpor
 
 #### Deskripsi
 
@@ -799,7 +799,7 @@ mount(), render(),
 
 #### NAMA KOMPONEN
 
-BuatIzinImpor
+37. BuatIzinImpor
 
 #### Deskripsi
 
@@ -821,7 +821,7 @@ mount(), updateSearchPT(), resetSearchPt(), searchPtQuery, updateSearchPengusul(
 
 #### NAMA KOMPONEN
 
-DetailIzinImpor
+38. DetailIzinImpor
 
 #### Deskripsi
 
@@ -845,7 +845,7 @@ mount(), updateStatus(), render(), openUpload($kategori, $fund_id = null), uploa
 
 #### NAMA KOMPONEN
 
-UsulanIndex
+39. UsulanIndex
 
 #### Deskripsi
 
@@ -867,7 +867,7 @@ mount(), resetFilter(), changeTab($key), render()
 
 #### NAMA KOMPONEN
 
-UsulanShow
+40. UsulanShow
 
 #### Deskripsi
 
@@ -889,7 +889,7 @@ mount(), render()
 
 #### NAMA KOMPONEN
 
-IndexRekaCipta
+41. IndexRekaCipta
 
 #### Deskripsi
 
@@ -911,7 +911,7 @@ mount(),changeTab($tab), render()
 
 #### NAMA KOMPONEN
 
-ShowRekaCipta
+42. ShowRekaCipta
 
 #### Deskripsi
 
@@ -933,7 +933,7 @@ mount(), render()
 
 #### NAMA KOMPONEN
 
-ReportAdminIndex
+43. ReportAdminIndex
 
 #### Deskripsi
 
@@ -957,7 +957,7 @@ updatingSearch(), mount(), render(),&#x20;
 
 #### NAMA KOMPONEN
 
-ReportAdminShow
+44. ReportAdminShow
 
 #### Deskripsi
 
@@ -979,7 +979,7 @@ mount($reportId), render(), save()
 
 #### NAMA KOMPONEN
 
-AdminKontrak
+45. AdminKontrak
 
 #### Deskripsi
 
@@ -1001,7 +1001,7 @@ render()
 
 #### NAMA KOMPONEN
 
-Show
+46. Show
 
 #### Deskripsi
 
@@ -1023,7 +1023,7 @@ render()
 
 #### NAMA KOMPONEN
 
-ProposalA3
+47. ProposalA3
 
 #### Deskripsi
 
@@ -1045,7 +1045,7 @@ render()
 
 #### NAMA KOMPONEN
 
-ProposalA3Show
+48. ProposalA3Show
 
 #### Deskripsi
 
@@ -1069,9 +1069,11 @@ render()
 
 #### NAMA KOMPONEN
 
-ProposalA3Show
+49. ProposalA3Show
 
 #### Deskripsi
+
+ProposalA3Show berfungsi sebagai
 
 #### Variable
 
@@ -1091,163 +1093,201 @@ render()
 
 ***
 
-Nama Komponen
+#### NAMA KOMPONEN
 
-VolunteerPengusulIndex
+1. VolunteerPengusulIndex
 
-#### DESKRIPSI
+#### Deskripsi
 
-Akses untuk admin volunter ke daftar usulan
+VolunteerPengusulIndex berfungsi sebagai akses untuk admin volunter ke daftar usulan
 
-#### **VARIABLE**
+#### Variable
 
-$proposals, $allProposalIds, $tab, $statusProposa, $pernah\_revisi;
+```
+$proposals, $allProposalIds, $tab, $statusProposa, $pernah_revisi;
+```
 
-#### METHOD
+#### Method
 
+```
 mount(), render(), getPengusuls($paginate = 0)
+```
 
+***
 
+#### NAMA KOMPONEN
 
-Nama Komponen
+2. PengusulShow
 
-PengusulShow
+#### Deskripsi
 
-#### DESKRIPSI
+PengusulShow berfungsi sebagai akses untuk admin volunter ke detail usulan
 
-Akses untuk admin volunter ke detail usulan
+#### Variable
 
-#### **VARIABLE**
+```
+$proposa, $proposal_desc, $ptab = 'seleksi', $tab, $masterDocuments, $id_proposal, $is_volunteer, $documents, $riwayatPengusul, $proposalHistories, $showProposalHistory, $msgSyncStatus, $formInputSyncStatus, $syncStatusProposalConfirmation, $allTxProposalStatus, $queryString
+```
 
-$proposa, $proposal\_desc, $ptab = 'seleksi', $tab, $masterDocuments, $id\_proposal, $is\_volunteer, $documents, $riwayatPengusul, $proposalHistories, $showProposalHistory, $msgSyncStatus, $formInputSyncStatus, $syncStatusProposalConfirmation, $allTxProposalStatus, $queryString
+#### Method
 
-#### METHOD
-
+```
 render(), mount(), fetchDocuments(), updateTab(), updatedFormInputSyncStatusKey($value), unduhRab(), getLastestHistory(), syncStatusProposal(), openSyncStatusProposalConfirmation(), fetchAllProposalStatus($key = ''), generateBaMonev()
-
-
+```
 
 ## REVIEWER
 
 ***
 
-Nama Komponen
+#### NAMA KOMPONEN
 
-ReviewerPenugasanIndex
+1. ReviewerPenugasanIndex
 
-#### DESKRIPSI
+#### Deskripsi
 
-Akses membuka daftar tugas yang diberikan sebagai Reviewer
+ReviewerPenugasanIndex berfungsi sebagai akses membuka daftar tugas yang diberikan sebagai Reviewer
 
-#### **VARIABLE**
+#### Variable
 
-$isDebug, $reviewer, $penugasan, $penugasan\_de, $penugasan\_pitching, $penugasan\_veka, $isBersedia, $isHaveJadwalPenugasan, $bank, $keuangan, $kepegawaian, $tab, $search, $allFilterTanggal, $filterTanggal, $allFilterJenis, $filterJenis, $isBersediaDeskEval, $isHaveJadwalPenugasanDeskEval, $numOfSemhasDiksi2023,  $listeners, $queryString
+```
+$isDebug, $reviewer, $penugasan, $penugasan_de, $penugasan_pitching, $penugasan_veka, $isBersedia, $isHaveJadwalPenugasan, $bank, $keuangan, $kepegawaian, $tab, $search, $allFilterTanggal, $filterTanggal, $allFilterJenis, $filterJenis, $isBersediaDeskEval, $isHaveJadwalPenugasanDeskEval, $numOfSemhasDiksi2023,  $listeners, $queryString
+```
 
-#### METHOD
+#### Method
 
+```
 kesediaanUpdated(), updatedTab(), updatedSearch(), updatedFilterTanggal(), updatedFilterJenis(), semhasDiksi2023(), mount(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-Nama Komponen
+2. ReviewerPenugasanShow
 
-ReviewerPenugasanShow
+#### Deskripsi
 
-#### DESKRIPSI
+ReviewerPenugasanShow berfungsi sebagai akses membuka detail tugas yang diberikan sebagai Reviewer
 
-Akses membuka detail tugas yang diberikan sebagai Reviewer
+#### Variable
 
-#### **VARIABLE**
+```
+$tugas, $proposal_desc, $list_dokumen, $isReviewersDoneGrading, $isReviewersDoneRekon, $txRekon, $key, $lembar_kerja, $tab, $queryString, $riwayatPengusul, $proposal
+```
 
-$tugas, $proposal\_desc, $list\_dokumen, $isReviewersDoneGrading, $isReviewersDoneRekon, $txRekon, $key, $lembar\_kerja, $tab, $queryString, $riwayatPengusul, $proposal
+#### Method
 
-#### METHOD
-
+```
 mount(), getDokumen(), checkStatus(), checkRekon(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-Nama Komponen
+3. PenugasanReviewerSemhas
 
-PenugasanReviewerSemhas
+#### Deskripsi
 
-#### DESKRIPSI
+PenugasanReviewerSemhas berfungsi sebagai akses membuka detail tugas yang diberikan sebagai Reviewer
 
-Akses membuka detail tugas yang diberikan sebagai Reviewer
+#### Variable
 
-#### **VARIABLE**
+```
+$fiscal_year, ReviewerPenugasan $tugas, TkaiProposal $proposal, $key, $tab, $lembar_kerja, $seminarHasil, $showRekon
+```
 
-$fiscal\_year, ReviewerPenugasan $tugas, TkaiProposal $proposal, $key, $tab, $lembar\_kerja, $seminarHasil, $showRekon
+#### Method
 
-#### METHOD
-
+```
 checkRekon(), mount(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-Nama Komponen
+4. PenugasanReviewerMonev
 
-PenugasanReviewerMonev
+#### Deskripsi
 
-#### DESKRIPSI
+PenugasanReviewerMonev berfungsi sebagai akses membuka detail tugas yang diberikan sebagai Reviewer
 
-Akses membuka detail tugas yang diberikan sebagai Reviewer
+#### Variable
 
-#### **VARIABLE**
+```
+$tugas, $proposal, $proposal_desc, $dokumen,  $key, $tab,  $lembar_kerja, $seminarHasil, $showRekon, $laporanKemajuan;
+```
 
-$tugas, $proposal, $proposal\_desc, $dokumen,  $key, $tab,  $lembar\_kerja, $seminarHasil, $showRekon, $laporanKemajuan;
+#### Method
 
-#### METHOD
-
+```
 mount(), downloadRab(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-Nama Komponen
+5. EvaluasiProposal
 
-EvaluasiProposal
+#### Deskripsi
 
-#### DESKRIPSI
+#### Variable
 
-#### **VARIABLE**
+```
+$tugas, $proposal, $is_rekon_activated, $lastReminder,  $canRemind = false, $isDone, $isOtherReviewerNotDone, $tab
+```
 
-$tugas, $proposal, $is\_rekon\_activated, $lastReminder,  $canRemind = false, $isDone, $isOtherReviewerNotDone, $tab
+#### Method
 
-#### METHOD
-
+```
 mount(), render(), remind(), reminderCacheKey(), loadLastReminder(), loadCanRemind(), loadDoneStatuses()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-Nama Komponen
+6. PresentasiProposal
 
-PresentasiProposal
+#### Deskripsi
 
-#### DESKRIPSI
+PresentasiProposal berfungsi sebagai
 
-#### **VARIABLE**
+#### Variable
 
+```
 $tugas, $proposal, $tab, $files
+```
 
-#### METHOD
+#### Method
 
+```
 mount(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-Nama Komponen
+7. VekaProposal
 
-VekaProposal
+#### Deskripsi
 
-#### DESKRIPSI
+VekaProposal berfungsi sebagai
 
-#### **VARIABLE**
+#### Variable
 
+```
 $tugas, $proposal, $tab
+```
 
-#### METHOD
+#### Method
 
+```
 mount(), render()
+```
 
 
 
@@ -1255,293 +1295,363 @@ mount(), render()
 
 ***
 
-NamaKomponen&#x20;
+#### NAMA KOMPONEN
 
-UnitPengelolaIndex
+1. UnitPengelolaIndex
 
-#### DESKRIPSI
+#### Deskripsi
 
 Akses membuka daftar proposal yang diajukan PT sebagai Unit Pengelola
 
-#### **VARIABLE**
+#### Variable
 
+```
 $search, $tahapanProposal, $perguruanTinggi, $penanggungJawabPt, $rekeningKontrak, $proposalsId, $proposalStatuses, $proposalKontrakMitras, $enableLaporan
+```
 
-#### METHOD
+#### Method
 
+```
 mount(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+2. UnitPengeloShow
 
-UnitPengeloShow
+#### Deskripsi
 
-#### DESKRIPSI
+UnitPengeloShow berfungsi sebagai akses membuka detail progress proposal yang diajukan PT sebagai Unit Pengelola
 
-Akses membuka detail progress proposal yang diajukan PT sebagai Unit Pengelola
+#### Variable
 
-#### **VARIABLE**
+```
+$proposal, $tab, $documents, $proposal_desc,  $id_proposal, $tahap_proposal, $tahap_proposal_flag, $queryString
+```
 
-$proposal, $tab, $documents, $proposal\_desc,  $id\_proposal, $tahap\_proposal, $tahap\_proposal\_flag, $queryString
+#### Method
 
-#### METHOD
-
+```
 setTahapProposalFlag(), changeTab($tab), mount(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+3. UnitPengeloKontrakIndex
 
-UnitPengeloKontrakIndex
+#### Deskripsi
 
-#### DESKRIPSI
+UnitPengeloKontrakIndex berfungsi sebagai akses membuka list kontrak dari setiap perguruan tinggi untuk Unit Pengelola PT
 
-Akses membuka list kontrak dari setiap perguruan tinggi untuk Unit Pengelola PT
+#### Variable
 
-#### **VARIABLE**
+```
+$tab, $paginateOptions, $selectedPaginate, $statusBerkas, $statusTtd, $search, $nama_dosen, $filterStatusBerkas$proposalDitetapkans, $proposalTerkontrak, $danaProposalDitetapkans, $danaProposalTerkontrak, $danaProposalBelumTerkontrak, $perguruanTinggi;
+```
 
-$tab, $paginateOptions, $selectedPaginate, $statusBerkas, $statusTtd, $search, $nama\_dosen, $filterStatusBerkas$proposalDitetapkans, $proposalTerkontrak, $danaProposalDitetapkans, $danaProposalTerkontrak, $danaProposalBelumTerkontrak, $perguruanTinggi;
+#### Method
 
-#### METHOD
-
+```
 mount(), render(), create()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+4. CreateKontrak
 
-CreateKontrak
+#### Deskripsi
 
-#### DESKRIPSI
+CreateKontrak berfungsi sebagai akses membuka list kontrak dari setiap perguruan tinggi untuk Unit Pengelola PT
 
-Akses membuka list kontrak dari setiap perguruan tinggi untuk Unit Pengelola PT
+#### Variable
 
-#### **VARIABLE**
-
+```
 $isBuatRekeningBaru, $isBuatPjBaru, $selectedPj, $selectedRekening, $user, $perguruanTinggi, $searchPj, $searchRekening, $existingRekening, $existingPj,$listProposals, $isProposalContracted, $isProposalSelected, $selectedFundIds, $penetapanProposals, $kategoriBerkasNpwp, $kategoriBerkasKopSurat, $uploadedNpwp, $uploadedKop, $newKontrak, $penanggungJawab, $rekeningKontrak, $banks, $jenisRekeningKontrak, $jenisKontrak;
+```
 
-#### METHOD
+#### Method
 
+```
 rules(), messages(), validationAttributes(), updateSearchRekening(), updateSearchPJ(), updateIsBuatRekeningBaru(), updateIsBuatPjBaru(), selectRekening($val), selectPj($val), updated($propertyName), mount(), selectProposal($fundId),  loadExistingPj(), loadExistingRekening(), loadProposals(), generateNewKontrak(), generatePenanggungJawab(), generateRekeningKontrak(), simpan(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+5. UnitPengeloKontrakShow
 
-UnitPengeloKontrakShow
+#### Deskripsi
 
-#### DESKRIPSI
+UnitPengeloKontrakShow berfungsi sebagai akses membuka detail dan informasi kontrak untuk Unit Pengelola PT
 
-Akses membuka detail dan informasi kontrak untuk Unit Pengelola PT
+#### Variable
 
-#### **VARIABLE**
+```
+$tab, $queryString, $id_kontrak, $kontrak, $proposals, $total_dana, $data, $kategoriBerkas, $proposalDitetapkan;
+```
 
-$tab, $queryString, $id\_kontrak, $kontrak, $proposals, $total\_dana, $data, $kategoriBerkas, $proposalDitetapkan;
+#### Method
 
-#### METHOD
-
+```
 mount(), getBerkas(), render(), changeTab($tab)
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+6. VerifikasiUploadDocumentPrivy
 
-VerifikasiUploadDocumentPrivy
+#### Deskripsi
 
-#### DESKRIPSI
+VerifikasiUploadDocumentPrivy berfungsi sebagai akses membuka detail dan informasi kontrak untuk Unit Pengelola PT
 
-Akses membuka detail dan informasi kontrak untuk Unit Pengelola PT
+#### Variable
 
-#### **VARIABLE**
+```
+$tab, $queryString, $id_kontrak, $kontrak, $proposals, $total_dana, $data, $kategoriBerkas, $proposalDitetapkan;
+```
 
-$tab, $queryString, $id\_kontrak, $kontrak, $proposals, $total\_dana, $data, $kategoriBerkas, $proposalDitetapkan;
+#### Method
 
-#### METHOD
+```
+mount(),  render(), evaluateCan(), updateKontrakStatus(), redirectToKontrak(), changeStatus($value), submit(), 
+```
 
-mount(),  render(), evaluateCan(), updateKontrakStatus(), redirectToKontrak(), changeStatus($value), submit(),&#x20;
+***
 
+#### NAMA KOMPONEN
 
+7. DaftarPengajuaImporUp
 
-NamaKomponen&#x20;
+#### Deskripsi
 
-DaftarPengajuaImporUp
+DaftarPengajuaImporUp berfungsi sebagai akses unit pengelola untuk melihat dan mengajukan izin impor
 
-#### DESKRIPSI
+#### Variable
 
-Akses unit pengelola untuk melihat dan mengajukan izin impor
+```
+$listPengajuan, $paginate, $paginateOptions, $search, $filterPengajuan, $status_filter, $applied_status_filter, $perguruanTinggi, $izinImporUp, $listeners
+```
 
-#### **VARIABLE**
+#### Method
 
-$listPengajuan, $paginate, $paginateOptions, $search, $filterPengajuan, $status\_filter, $applied\_status\_filter, $perguruanTinggi, $izinImporUp, $listeners
+```
+mount(),  render(), 
+```
 
-#### METHOD
+***
 
-mount(),  render(),&#x20;
+#### NAMA KOMPONEN
 
+8. BuatIzinImporUp
 
+#### Deskripsi
 
-NamaKomponen&#x20;
+BuatIzinImporUp berfungsi sebagai akses unit pengelola untuk melihat dan mengajukan izin impor
 
-BuatIzinImporUp
+#### Variable
 
-#### DESKRIPSI
+```
+$kategori, $berkas, $kategoriBerkas, $berkasFundId, $tempBerkas, $selected_kode_pt, $selected_nama_pt, $searchPt, $list_pt, $nomor_surat, $tanggal_surat,  $searchPengusul, $listPengusul, $list_selected_pengusul, $listItem, $nilai_total_impor, $item_nama, $item_deskripsi, $item_alasan_kebutuhan, $item_kuantitas, $item_harga_satuan;
+```
 
-Akses unit pengelola untuk melihat dan mengajukan izin impor
+#### Method
 
-#### **VARIABLE**
+```
+mount(), updatedSearchPt(), resetSearchPt(), searchPtQuery(), updatedSearchPengusul(), resetSearchPengusul(), searchPengusulQuery(), render(), selectPt($kode_pt, $nama_pt), removePt(), addPengusul($fund_id, $nama, $judul), removePengusul($fund_id), openUpload($kategori, $fund_id = null), addBerkas(), removeUpload($kategori_berkas, $fund_id), addItem($fund_id), removeItem($fund_id, $i), submit()
+```
 
-$kategori, $berkas, $kategoriBerkas, $berkasFundId, $tempBerkas, $selected\_kode\_pt, $selected\_nama\_pt, $searchPt, $list\_pt, $nomor\_surat, $tanggal\_surat,  $searchPengusul, $listPengusul, $list\_selected\_pengusul, $listItem, $nilai\_total\_impor, $item\_nama, $item\_deskripsi, $item\_alasan\_kebutuhan, $item\_kuantitas, $item\_harga\_satuan;
+***
 
-#### METHOD
+#### NAMA KOMPONEN
 
-mount(), updatedSearchPt(), resetSearchPt(), searchPtQuery(), updatedSearchPengusul(), resetSearchPengusul(), searchPengusulQuery(), render(), selectPt($kode\_pt, $nama\_pt), removePt(), addPengusul($fund\_id, $nama, $judul), removePengusul($fund\_id), openUpload($kategori, $fund\_id = null), addBerkas(), removeUpload($kategori\_berkas, $fund\_id), addItem($fund\_id), removeItem($fund\_id, $i), submit()
+9. DetaiIzinImporUp
 
+#### Deskripsi
 
+DetaiIzinImporUp berfungsi sebagai akses unit pengelola untuk melihat dan mengajukan izin impor
 
-NamaKomponen&#x20;
+#### Variable
 
-DetaiIzinImporUp
+```
+$id_izin_impor, $pengajuan, $openUploadModal, $showPreviewModal,  $kategoriBerkas, $kategori, $berkas,  $status, $nomor_surat, $tanggal_surat, $catatan, $fund_id, $berkasFundId,  $pengajuanStatus
+```
 
-#### DESKRIPSI
+#### Method
 
-Akses unit pengelola untuk melihat dan mengajukan izin impor
-
-#### **VARIABLE**
-
-$id\_izin\_impor, $pengajuan, $openUploadModal, $showPreviewModal,  $kategoriBerkas, $kategori, $berkas,  $status, $nomor\_surat, $tanggal\_surat, $catatan, $fund\_id, $berkasFundId,  $pengajuanStatus
-
-#### METHOD
-
+```
 mount(), updateStatus(), render(), downloadExcel($berkas)
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+#### 10. Laporan
 
-Laporan
+#### Deskripsi
 
-#### DESKRIPSI
+Laporan berfungsi sebagai
 
-#### **VARIABLE**
+#### Variable
+
+```
+$perguruanTinggi;
+```
 
 $perguruanTinggi;
 
-#### METHOD
+#### Method
 
+```
 mount(),  render()
+```
 
-
+***
 
 **`2024`**
 
+#### NAMA KOMPONEN
 
+11. UnitPengelola2024index
 
-NamaKomponen&#x20;
+#### Deskripsi
 
-UnitPengelola2024index
+UnitPengelola2024index berfungsi sebagai akses membuka daftar proposal yang diajukan PT sebagai Unit Pengelola
 
-#### DESKRIPSI
+#### Variable
 
-Akses membuka daftar proposal yang diajukan PT sebagai Unit Pengelola
-
-#### **VARIABLE**
-
+```
 $search, $perguruanTinggi, $unitPengelola, $penandaTangan, $rekening, $tab, $queryString
+```
 
-#### METHOD
+#### Method
+
+```
+mount(),  render()
+```
 
 mount(),  render()
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+12. UnitPengelola2024Show
 
-UnitPengelola2024Show
+#### Deskripsi
 
-#### DESKRIPSI
+UnitPengelola2024Show berfungsi sebagai akses membuka detail progress proposal yang diajukan PT sebagai Unit Pengelola
 
-Akses membuka detail progress proposal yang diajukan PT sebagai Unit Pengelola
+#### Variable
 
-#### **VARIABLE**
+```
+$proposal, $proposal_id,  $tab, $queryString
+```
 
-$proposal, $proposal\_id,  $tab, $queryString
+#### Method
 
-#### METHOD
-
+```
 mount(),  render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+13. BuatKontrak
 
-BuatKontrak
+#### Deskripsi
 
-#### DESKRIPSI
+BuatKontrak berfungsi sebagai
 
-#### **VARIABLE**
+#### Variable
 
+```
 $perguruanTinggi, $unitPengelola, $penandaTangan, $rekening, $mekanisme, $direktorat, $proposals, $selectedProposals, $terkontrak
+```
 
-#### METHOD
+#### Method
 
+```
 mount(), tambahProposal($id), hapusProposal($id), simpan(), render()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+14. Kontrak
 
-Kontrak
+#### Deskripsi
 
-#### DESKRIPSI
+Kontrak berfungsi sebagai
 
-#### **VARIABLE**
+#### Variable
 
+```
 $kontrak, $tab, $queryString
+```
 
-#### METHOD
+#### Method
 
+```
 render()
-
-
+```
 
 ## OPERATOR
 
 ***
 
-Nama Komponen
+#### NAMA KOMPONEN
 
-PerguruanTinggiRegister
+1. PerguruanTinggiRegister
 
-#### DESKRIPSI
+#### Deskripsi
 
-Akses membuka formulir pendaftaran Unit Pengelola sebagai Operator
+PerguruanTinggiRegister berfungsi sebagai akses membuka formulir pendaftaran Unit Pengelola sebagai Operator
 
-#### **VARIABLE**
+#### Variable
 
-$unit\_pengelola, $is\_mengajukan, $is\_edit = false, $kode\_pt,  $listeners
+```
+$unit_pengelola, $is_mengajukan, $is_edit = false, $kode_pt,  $listeners
+```
 
-#### METHOD
+#### Method
 
+```
 mount(), render(), editUlang(), PendaftaranUnitPengelolaCreated()
+```
 
+***
 
+#### NAMA KOMPONEN
 
-NamaKomponen&#x20;
+2. EditDaftarUp
 
-EditDaftarUp
+#### Deskripsi
 
-#### DESKRIPSI
+EditDaftarUp berfungsi sebagai akses membuka formulir pendaftaran Unit Pengelola sebagai Operator
 
-Akses membuka formulir pendaftaran Unit Pengelola sebagai Operator
+#### Variable
 
-#### **VARIABLE**
-
-$pj\_nama, $pj\_alamat, $pj\_telp, $pj\_nomor, $pj\_surel, $up\_nama, $up\_alamat, $up\_telp, $up\_nomor, $up\_surel, $bp\_nama, $bp\_nama\_ketua, $bp\_alamat, $bp\_telp, $bp\_nomor, $kode\_pt, $perguruan, $up;
+```
+$pj_nama, $pj_alamat, $pj_telp, $pj_nomor, $pj_surel, $up_nama, $up_alamat, $up_telp, $up_nomor, $up_surel, $bp_nama, $bp_nama_ketua, $bp_alamat, $bp_telp, $bp_nomor, $kode_pt, $perguruan, $up;
+```
 
 #### METHOD
 
+```
 mount(), render(), rules(), submit()
+```
 
 
 
