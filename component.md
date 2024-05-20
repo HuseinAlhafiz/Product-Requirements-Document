@@ -4,21 +4,21 @@
 
 ***
 
-#### Nama Komponen
+#### NAMA KOMPONEN
 
 > PergguruanTinggiIndex
 
-#### DESKRIPSI
+#### Deskripsi
 
 PergguruanTinggiIndex berfungsi sebagai akses membuka menu daftar perguruan tinggi (tab Perguruan Tinggi)
 
-#### **VARIABLE**
+#### Variable
 
 ```
 $search, $perPage, $perPageOptions
 ```
 
-#### METHOD
+#### Method
 
 ```
 mount(), render()
