@@ -6,6 +6,10 @@
 
 #### Nama Komponen
 
+```
+PergguruanTinggiIndex
+```
+
 > PergguruanTinggiIndex
 
 #### DESKRIPSI
