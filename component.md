@@ -6,9 +6,7 @@
 
 #### Nama Komponen
 
-{% hint style="info" %}
-PergguruanTinggiIndex
-{% endhint %}
+> PergguruanTinggiIndex
 
 #### DESKRIPSI
 
