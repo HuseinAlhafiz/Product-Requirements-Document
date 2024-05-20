@@ -6,10 +6,6 @@
 
 #### Nama Komponen
 
-
-
-
-
 PergguruanTinggiIndex
 
 #### DESKRIPSI
@@ -24,7 +20,7 @@ $search, $perPage, $perPageOptions
 
 mount(), render()
 
-
+***
 
 Nama Komponen
 
