@@ -6,7 +6,7 @@
 
 #### NAMA KOMPONEN
 
-PergguruanTinggiIndex
+1. PergguruanTinggiIndex
 
 #### Deskripsi
 
@@ -28,7 +28,7 @@ mount(), render()
 
 #### NAMA KOMPONEN
 
-PerguruanTinggiShow
+2. PerguruanTinggiShow
 
 #### Deskripsi
 
@@ -50,7 +50,7 @@ updatedSearch(), updatedStatusProposal, mount($pt), render(), getPengusuls()
 
 #### NAMA KOMPONEN
 
-PendaftaranPTIndex
+3. PendaftaranPTIndex
 
 #### Deskripsi
 
