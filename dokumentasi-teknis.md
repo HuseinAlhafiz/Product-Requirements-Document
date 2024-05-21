@@ -8,23 +8,21 @@
 
 #### **Dokumentasi**
 
-{% file src=".gitbook/assets/tampilanListInnovator" %}
-
-<figure><img src=".gitbook/assets/tampilanListInnovator" alt=""><figcaption><p>Tampilan List Innovator</p></figcaption></figure>
+<figure><img src=".gitbook/assets/mervin1.png" alt=""><figcaption><p>Tampilan List Innovator</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/mervin2.png" alt=""><figcaption><p>Tampilan Detail Innovator</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/mervin7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/mervin 6.png" alt=""><figcaption><p>Filter Perguruan Tinggi</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/mervin7.png" alt=""><figcaption><p>Filter Direktorat</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/mervin4.png" alt=""><figcaption><p>Filter Innovator</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/mervin5.png" alt=""><figcaption><p>Filter Perguruan Tinggi</p></figcaption></figure>
-
-<figure><img src=".gitbook/assets/mervin 6.png" alt=""><figcaption><p>Filter</p></figcaption></figure>
+<figure><img src=".gitbook/assets/mervin5.png" alt=""><figcaption><p>Multiple Filter</p></figcaption></figure>
 
 #### Keterangan
 
-<table><thead><tr><th width="120">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Innovator</td><td>Filter pencarian berdasarkan kriteria tertentu.</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan kriteria yang ditentukan.</td></tr></tbody></table>
+<table><thead><tr><th width="127">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Perguruan Tinggi</td><td>Filter pencarian berdasarkan Perguruan Tinggi yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi</td></tr><tr><td>Filter Direktorat</td><td>Filter pencarian berdasarkan Direktorat yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Direktorat</td></tr><tr><td>Filter Innovator</td><td>Filter pencarian berdasarkan Innovator yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Innovator</td></tr></tbody></table>
 
 #### **Model**
 
@@ -60,15 +58,15 @@
 
 #### **Dokumentasi**
 
-<figure><img src=".gitbook/assets/reza1.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/reza1.jpeg" alt=""><figcaption><p>Proposal 2024</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/reza2.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/reza2.jpeg" alt=""><figcaption><p>Proposal 2023</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/reza3.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/reza3.jpeg" alt=""><figcaption><p>Detail </p></figcaption></figure>
 
 #### Keterangan
 
-<table><thead><tr><th width="120">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>Detail Inn</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Innovator</td><td>Filter pencarian berdasarkan kriteria tertentu.</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan kriteria yang ditentukan.</td></tr></tbody></table>
+<table><thead><tr><th width="127">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>Proposal 2023</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Perguruan Tinggi</td><td>Filter pencarian berdasarkan Perguruan Tinggi yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi</td></tr><tr><td>Filter Direktorat</td><td>Filter pencarian berdasarkan Direktorat yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Direktorat</td></tr><tr><td>Filter Innovator</td><td>Filter pencarian berdasarkan Innovator yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Innovator</td></tr></tbody></table>
 
 #### **Model**
 
@@ -124,6 +122,10 @@ TxProposalStatus belong to TkaiProposal
 
 <figure><img src=".gitbook/assets/umar3.jpeg" alt=""><figcaption></figcaption></figure>
 
+#### **Keterangan**
+
+<table><thead><tr><th width="127">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Perguruan Tinggi</td><td>Filter pencarian berdasarkan Perguruan Tinggi yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi</td></tr><tr><td>Filter Direktorat</td><td>Filter pencarian berdasarkan Direktorat yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Direktorat</td></tr><tr><td>Filter Innovator</td><td>Filter pencarian berdasarkan Innovator yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Innovator</td></tr></tbody></table>
+
 #### **Model**
 
 <table><thead><tr><th width="79">No</th><th width="288">Model</th><th width="379">Nama Tabel</th></tr></thead><tbody><tr><td>1</td><td>TkaiUser</td><td>tkai_user</td></tr><tr><td>2</td><td>User</td><td>tkai_bo_user</td></tr><tr><td>3</td><td>TkaiIndustry</td><td>tkai_profile_industry</td></tr><tr><td>4</td><td>TkaiInnovator</td><td>tkai_profile_innovator</td></tr><tr><td>5</td><td>TkaiProposal</td><td>tkai_matching_fund</td></tr><tr><td>6</td><td>ProposalDitetapkan</td><td>proposal_ditetapkans</td></tr><tr><td>7</td><td>MfProposal</td><td>mf_proposals</td></tr><tr><td>8</td><td>TxProposalStatus</td><td>tx_proposal_status</td></tr><tr><td>9</td><td>MfProposalAnggaran</td><td>mf_proposal_anggarans</td></tr><tr><td>10</td><td>MfProposalPenetapan</td><td>mf_proposal_penetapans</td></tr><tr><td>11</td><td>AnggaranHonorarium</td><td>anggaran_honorarium</td></tr><tr><td>12</td><td>AnggaranPeralatanPendukung</td><td>anggaran_peralatan_pendukung</td></tr><tr><td>13</td><td>AnggaranBahanPrototype</td><td>anggaran_bahan_prototype</td></tr><tr><td>14</td><td>AnggaranPendampingan</td><td>anggaran_pendampingan</td></tr><tr><td>15</td><td>AnggaranFGD</td><td>anggaran_fgd</td></tr><tr><td>16</td><td>AnggaranSurvey</td><td>anggaran_survey</td></tr><tr><td>17</td><td>AnggaranPengujianProduk</td><td>anggaran_pengujian_produk</td></tr><tr><td>18</td><td>AnggaranPendaftaranHKI</td><td>anggaran_pendaftaran_hki</td></tr><tr><td>19</td><td>AnggaranBiayaPerjalananDinas</td><td>anggaran_biaya_perjalanan</td></tr><tr><td>20</td><td>AnggaranBantuanInsentifMahasiswa</td><td>anggaran_bantuan_insentif_mahasiswa</td></tr><tr><td>21</td><td>AnggaranProdukSkalaTerbatas</td><td>anggaran_produk_skala_terbatas</td></tr><tr><td>22</td><td>AnggaranPengelolaanProgram</td><td>anggaran_pengelolaan_program</td></tr></tbody></table>
@@ -172,13 +174,17 @@ TxProposalStatus belong to TkaiProposal
 
 ***
 
-### Unit Pengelola
+### - Unit Pengelola
 
 (Bintang)
 
 #### **Dokumentasi**
 
 
+
+#### Keterangan
+
+<table><thead><tr><th width="127">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Perguruan Tinggi</td><td>Filter pencarian berdasarkan Perguruan Tinggi yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi</td></tr><tr><td>Filter Direktorat</td><td>Filter pencarian berdasarkan Direktorat yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Direktorat</td></tr><tr><td>Filter Innovator</td><td>Filter pencarian berdasarkan Innovator yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Innovator</td></tr></tbody></table>
 
 #### **Model**
 
@@ -194,13 +200,15 @@ TxProposalStatus belong to TkaiProposal
 
 
 
-### Detail Proposal
-
-(Jalu)
+### - Detail Proposal
 
 #### Dokumentasi
 
+{% file src=".gitbook/assets/detailProposal.jpg" %}
 
+#### Keterangan
+
+<table><thead><tr><th width="127">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Perguruan Tinggi</td><td>Filter pencarian berdasarkan Perguruan Tinggi yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi</td></tr><tr><td>Filter Direktorat</td><td>Filter pencarian berdasarkan Direktorat yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Direktorat</td></tr><tr><td>Filter Innovator</td><td>Filter pencarian berdasarkan Innovator yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Innovator</td></tr></tbody></table>
 
 #### **Model**
 
