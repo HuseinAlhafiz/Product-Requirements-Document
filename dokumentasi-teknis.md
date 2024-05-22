@@ -124,7 +124,7 @@ TxProposalStatus belong to TkaiProposal
 
 #### **Keterangan**
 
-<table><thead><tr><th width="127">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Perguruan Tinggi</td><td>Filter pencarian berdasarkan Perguruan Tinggi yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi</td></tr><tr><td>Filter Direktorat</td><td>Filter pencarian berdasarkan Direktorat yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Direktorat</td></tr><tr><td>Filter Innovator</td><td>Filter pencarian berdasarkan Innovator yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Innovator</td></tr></tbody></table>
+<table><thead><tr><th width="141">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>Profile Mitra</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Pendanaan Proposal</td><td>Filter pencarian berdasarkan Perguruan Tinggi yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi</td></tr><tr><td>List Proposal 2023/2024</td><td>Filter pencarian berdasarkan Direktorat yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Direktorat</td></tr><tr><td>Detail Proposal 2023/2024</td><td>Filter pencarian berdasarkan Innovator yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Innovator</td></tr></tbody></table>
 
 #### **Model**
 
@@ -166,7 +166,7 @@ TxProposalStatus belong to TkaiProposal
 
 <table><thead><tr><th width="200">Model / Tabel</th><th width="149">Relasi</th><th>Model/Tabel</th></tr></thead><tbody><tr><td>Tkai_industry </td><td>has many </td><td>Tkai_matching_fund (Proposal 2023)</td></tr><tr><td>Tkai_industry </td><td>has many</td><td>Mf_Proposals (Proposal 2024)</td></tr><tr><td>Mf_Proposals </td><td>has many</td><td>Mf_Proposal_anggarans (Anggaran2024)</td></tr><tr><td>Tkai_matching_fund</td><td>has many </td><td><ul><li>anggaran_bahan_prototype</li><li>anggaran_bantuan_insentif_mahasiswa</li><li>anggaran_biaya_perjalanan, anggaran_fgd</li><li>anggaran_honorerium</li><li>anggaran_pendaftaran_hki</li><li>anggaran_pendampingan</li><li>anggaran_pengelolaan_program</li><li>anggaran_pengujian_produk</li><li>anggaran_pendukung</li><li>anggaran_produk_skala_terbatas</li><li>anggaran_survey,(Anggaran2023).                           </li></ul></td></tr><tr><td>Mf_Proposals </td><td> has one </td><td><p>mf_proposal_penetapans </p><p>(sk penetapan dan anggaran ditetapkan2024)</p></td></tr><tr><td>tkai_matching_fund </td><td>has one</td><td><p>proposal_ditetapkan </p><p>(sk penetapan dan anggaran ditetapkan2023)</p></td></tr></tbody></table>
 
-#### NAMA KOMPONEN
+#### Nama Komponen
 
 <table><thead><tr><th width="79">No</th><th width="288">Nama Folder</th><th>Nama File</th></tr></thead><tbody><tr><td>1</td><td>komponen/mitra/</td><td>list_proposal2023, list_proposal2024</td></tr><tr><td>2</td><td><strong>index</strong> </td><td>show</td></tr><tr><td>3</td><td></td><td></td></tr></tbody></table>
 
@@ -174,7 +174,7 @@ TxProposalStatus belong to TkaiProposal
 
 ***
 
-### - Unit Pengelola
+### - List Proposal
 
 (Bintang)
 
@@ -208,7 +208,7 @@ TxProposalStatus belong to TkaiProposal
 
 #### Keterangan
 
-<table><thead><tr><th width="127">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Perguruan Tinggi</td><td>Filter pencarian berdasarkan Perguruan Tinggi yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi</td></tr><tr><td>Filter Direktorat</td><td>Filter pencarian berdasarkan Direktorat yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Direktorat</td></tr><tr><td>Filter Innovator</td><td>Filter pencarian berdasarkan Innovator yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Innovator</td></tr></tbody></table>
+<table><thead><tr><th width="163">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td><p>Detail Proposal</p><p>2023/2024</p></td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Detail Anggaran</td><td></td><td></td><td></td></tr><tr><td>Detail Mitra</td><td></td><td></td><td></td></tr><tr><td>Detail Anggota Tim Proposal</td><td></td><td></td><td></td></tr><tr><td>Dokumen Pitching (Langkah- langkah pengajuan proposal)</td><td></td><td></td><td></td></tr></tbody></table>
 
 #### **Model**
 
