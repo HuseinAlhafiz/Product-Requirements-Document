@@ -22,7 +22,7 @@
 
 #### Keterangan
 
-<table><thead><tr><th width="127">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Daftar user yang mengajukan proposal.</td><td>Penting untuk memiliki sistem yang dapat melacak dan menampilkan individu yang mengajukan proposal</td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Perguruan Tinggi, Direktorat, dan Innovator</td><td>Filter pencarian berdasarkan Perguruan Tinggi, Direktorat, dan Innovator yang dituju</td><td>Dalam suatu sistem sering kali dibutuhkan kemampuan untuk mencari informasi berdasarkan kriteria tertentu</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi, Direktorat, dan Innovator</td></tr></tbody></table>
+<table><thead><tr><th width="181">Fitur</th><th width="211">Deskripsi </th><th width="165">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Fitur ini berisi Daftar Innovator yang mengajukan proposal.</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Innovator  yang mengajukan proposal.</td></tr><tr><td>Filter (Perguruan Tinggi, Direktorat, dan Innovator)</td><td>Fitur ini berisi Filter pencarian berdasarkan Perguruan Tinggi, Direktorat, dan Innovator yang dituju</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi, Direktorat, dan Innovator</td></tr></tbody></table>
 
 #### **Model**
 
@@ -66,7 +66,7 @@
 
 #### Keterangan
 
-<table><thead><tr><th width="127">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Daftar user yang mengajukan proposal.</td><td>Penting untuk memiliki sistem yang dapat melacak dan menampilkan individu yang mengajukan proposal</td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Perguruan Tinggi</td><td>Filter pencarian berdasarkan Perguruan Tinggi yang dituju</td><td>Dalam suatu sistem sering kali dibutuhkan kemampuan untuk mencari informasi berdasarkan kriteria tertentu</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi</td></tr><tr><td>Filter Direktorat</td><td>Filter pencarian berdasarkan Direktorat yang dituju</td><td>Dalam suatu sistem sering kali dibutuhkan kemampuan untuk mencari informasi berdasarkan kriteria tertentu.</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Direktorat</td></tr><tr><td>Filter Innovator</td><td>Filter pencarian berdasarkan Innovator yang dituju</td><td>Dalam suatu sistem sering kali dibutuhkan kemampuan untuk mencari informasi berdasarkan kriteria tertentu.</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Innovator</td></tr></tbody></table>
+<table><thead><tr><th width="152">Fitur</th><th width="217">Deskripsi </th><th width="187">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td><p>List Innovator</p><p>2023, 2024</p></td><td>Fitur ini berisi Daftar Proposal yang akan diajukan dan diterima</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Innovator yang mengajukan proposal.</td></tr><tr><td>Detail Innovator 2023, 2024</td><td>Fitur ini berisi Daftar Proposal yang akan diajukan dan diterima</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Detail Innovator yang mengajukan proposal</td></tr><tr><td>Data profile Innovator</td><td>Fitur ini berisi untuk menampilkan data </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Data Profile Innovator</td></tr><tr><td>Daftar Kolaborasi</td><td>Fitur ini berfungsi untuk mengetahui peran Innovator </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mengetahui peran yang diemban oleh Innovator serta di mana ia berkontribusi dalam proposal tersebut.</td></tr></tbody></table>
 
 #### **Model**
 
@@ -82,27 +82,7 @@
 
 #### **Relasi**
 
-TkaiInnovator belongs To TkaiUser
-
-MfProposal belongs to MfSkema, MfTema, MfBatch, TkaiIndustry
-
-TkaiProposal has one ProposalDitetapkan
-
-TkaiProposal has many TkaiIndustry
-
-TkaiBusinessCase has many TkaiBusinessBid
-
-TkaiBusinessCase belongs to TkaiIndustry
-
-TkaiInnovation has many TkaiInnovationBid
-
-TkaiInnovation belongs to TkaiInnovator
-
-MfProposalStatus belongs to MfProposal
-
-TxProposalStatus belong to TkaiProposal
-
-
+<table><thead><tr><th width="187">Model / Tabel</th><th width="163">Relasi</th><th>Model/Tabel</th></tr></thead><tbody><tr><td>TkaiInnovator</td><td>belongs to</td><td>TkaiUser</td></tr><tr><td>MfProposal</td><td>belongs to</td><td><ul><li>MfSkema </li><li>MfTema </li><li>MfBatch</li><li>TkaiIndustry</li></ul></td></tr><tr><td>TkaiProposal</td><td>has one </td><td>ProposalDitetapkan</td></tr><tr><td>TkaiProposal</td><td> has many </td><td>TkaiIndustry</td></tr><tr><td>TkaiBusinessCase</td><td>has many </td><td>TkaiBusinessBid</td></tr><tr><td>TkaiBusinessCase </td><td>belongs to</td><td>TkaiIndustry</td></tr><tr><td>TkaiInnovation</td><td>has many </td><td>TkaiInnovationBid</td></tr><tr><td>TkaiInnovation</td><td>belongs to</td><td>TkaiInnovator</td></tr><tr><td>MfProposalStatus</td><td>belongs to</td><td>MfProposal</td></tr><tr><td>TxProposalStatus</td><td>belongs to</td><td>TkaiProposal</td></tr></tbody></table>
 
 #### NAMA KOMPONEN
 
@@ -124,7 +104,7 @@ TxProposalStatus belong to TkaiProposal
 
 #### **Keterangan**
 
-<table><thead><tr><th width="141">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>Profile Mitra</td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Pendanaan Proposal</td><td>Filter pencarian berdasarkan Perguruan Tinggi yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi</td></tr><tr><td>List Proposal 2023/2024</td><td>Filter pencarian berdasarkan Direktorat yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Direktorat</td></tr><tr><td>Detail Proposal 2023/2024</td><td>Filter pencarian berdasarkan Innovator yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan Innovator</td></tr></tbody></table>
+<table><thead><tr><th width="141">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>Profile Mitra</td><td>Profil Mitra meliputi Nama, Bidang Usaha, Jumlah Karyawan, Provinsi, Alamat Lengkap, dan Kontak.</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan profil mitra</td></tr><tr><td>Pendanaan Proposal</td><td>Fitur ini memungkinkan untuk memantau total proposal yang diajukan dan diterima, serta total pendanaan yang diajukan dan diterima.</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk total proposal yang diajukan dan diterima, pendanaan yang diajukan dan diterima</td></tr><tr><td>List Proposal 2023/2024</td><td>Fitur ini memungkinkan pengguna untuk melihat daftar lengkap proposal yang diajukan dan diterima dalam periode 2023/2024</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mengetahui Daftar Proposal yang diajukan dan diterima </td></tr><tr><td>Detail Proposal 2023/2024</td><td>Fitur ini memberikan akses untuk melihat detail lengkap dari setiap proposal yang dipilih untuk periode 2023/2024.</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>berfungsi untuk menampilkan informasi lengkap mengenai proposal yang dipilih oleh pengguna.</td></tr></tbody></table>
 
 #### **Model**
 
@@ -152,7 +132,7 @@ TxProposalStatus belong to TkaiProposal
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Proposal 2023</p></figcaption></figure>
 
-<table><thead><tr><th width="187">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>Proposal 2023, Proposal 2024</td><td>Daftar proposal yang telah diajukan</td><td>Penting untuk memiliki sistem yang dapat melacak dan menampilkan individu yang mengajukan proposal</td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Filter Nama Mitra, Jenis Mitra, Kategori Mitra, Provinsi Mitra</td><td>Filter pencarian berdasarkan Nama Mitra, Jenis Mitra, Kategori Mitra, Provinsi Mitra</td><td>Dalam suatu sistem sering kali dibutuhkan kemampuan untuk mencari informasi berdasarkan kriteria tertentu</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Nama Mitra, Jenis Mitra, Kategori Mitra, Provinsi Mitra</td></tr><tr><td>Multiple filter</td><td>Filter pencarian multiple</td><td></td><td>Berfungsi untuk  memasukkan beberapa parameter pencarian dalam filter</td></tr><tr><td>Daftar Mitra</td><td>Mengetahui daftar mitra yang terdaftar</td><td></td><td></td></tr><tr><td>Export Mitra</td><td>Export data mitra dan anggaran-anggaran</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="161">Fitur</th><th width="217">Deskripsi </th><th width="182">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>Proposal 2023/2024</td><td>Fitur ini berisi Daftar Proposal yang telah diajukan</td><td>karena fitur tersebut belum ada sebelumnya. </td><td>Berfungsi untuk menampilkan proposal  yang telah diajukan</td></tr><tr><td><p>Filter </p><p>(Nama Mitra, </p><p>Jenis Mitra, Kategori Mitra, Provinsi Mitra)</p></td><td>Fitur ini berisi Filter pencarian berdasarkan Nama Mitra, Jenis Mitra, Kategori Mitra, Provinsi Mitra</td><td>Karena dibutuhkan  untuk mencari informasi berdasarkan kriteria tertentu</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Nama Mitra, Jenis Mitra, Kategori Mitra, Provinsi Mitra</td></tr><tr><td>Multiple filter</td><td>Fitur ini berisi Filter pencarian multiple untuk pencarian ganda</td><td>Karena dibutuhkan untuk mencari informasi berdasarkan berbagai ketentuan tertentu</td><td>Berfungsi untuk memungkinkan pengguna memasukkan beberapa parameter pencarian dalam filter.</td></tr><tr><td>Daftar Mitra</td><td>Fitur ini berisi Daftar Mitra yang terdaftar</td><td>Karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk memberikan informasi tentang daftar mitra yang terdaftar.</td></tr><tr><td>Export Mitra</td><td>Fitur ini berisi Export data Mitra dan anggaran-anggaran</td><td>Karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mengekspor data mitra dan anggaran-anggaran.</td></tr></tbody></table>
 
 #### **Model**
 
@@ -194,7 +174,7 @@ TxProposalStatus belong to TkaiProposal
 
 #### Keterangan
 
-<table><thead><tr><th width="188">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Proposal 2021, 2022, 2023, 2024</td><td>Daftar proposal yang telah diajukan </td><td></td><td>Berfungsi untuk menampilkan proposal berdasarkan tahun</td></tr><tr><td>Filter company name, nama innovator, proposal id, judul proposal </td><td>Filter pencarian berdasarkan Company Name, Nama Innovator, Proposal Id, dan Judul Proposal yang dituju</td><td></td><td>Berfungsi untuk mempermudah pencarian berdasarkan </td></tr></tbody></table>
+<table><thead><tr><th width="188">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Proposal 20232024</td><td>Fitur ini berisi Daftar proposal yang telah diajukan </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan proposal berdasarkan tahun</td></tr><tr><td><p>Filter </p><p>(company name, nama innovator, proposal id, judul proposal)</p></td><td>Fitur ini berisi Filter pencarian berdasarkan Company Name, Nama Innovator, Proposal Id, dan Judul Proposal yang dituju</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mempermudah pencarian berdasarkan </td></tr></tbody></table>
 
 #### **Model**
 
@@ -218,7 +198,7 @@ TxProposalStatus belong to TkaiProposal
 
 #### Keterangan
 
-<table><thead><tr><th width="205">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td><p>Detail Proposal</p><p>2023/2024</p></td><td>Daftar user yang mengajukan proposal.</td><td></td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Detail Anggaran</td><td></td><td></td><td></td></tr><tr><td>Detail Mitra</td><td></td><td></td><td></td></tr><tr><td>Detail Anggota Tim Proposal</td><td></td><td></td><td></td></tr><tr><td>Dokumen Pitching (Langkah- langkah pengajuan proposal)</td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="190">Fitur</th><th width="217">Deskripsi </th><th width="173">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td><p>Detail Proposal</p><p>2023/2024</p></td><td>Fitur ini berisi user yang mengajukan proposal tahun 2023/2024</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan user  yang mengajukan proposal.</td></tr><tr><td>Detail Anggaran</td><td>Fitur ini berisi anggaran secara keseluruhan</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan anggaran keseluruhan dari proposal</td></tr><tr><td>Detail Mitra</td><td></td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk melihat detail mitra</td></tr><tr><td>Detail Anggota Tim Proposal</td><td></td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk melihat siapa saja dosen dan mahasiswa yang berkontribusi </td></tr><tr><td>Dokumen Pitching (Langkah- langkah pengajuan proposal)</td><td></td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk meilhat status pengajuan proposal dari awal sampai akhir</td></tr></tbody></table>
 
 #### **Model**
 
