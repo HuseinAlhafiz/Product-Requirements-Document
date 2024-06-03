@@ -4,7 +4,7 @@
 
 ***
 
-### - List Innovator
+### List Innovator
 
 #### **Dokumentasi**
 
@@ -54,7 +54,7 @@
 
 <table><thead><tr><th width="79">No</th><th width="288">Nama Folder</th><th>Nama File</th></tr></thead><tbody><tr><td>1</td><td>pengusul2024</td><td>keanggotaan-proposal</td></tr></tbody></table>
 
-### - Detail Innovator
+### Detail Innovator
 
 #### **Dokumentasi**
 
@@ -92,7 +92,7 @@
 
 ***
 
-### - User Mitra
+### &#x20;User Mitra
 
 #### **Dokumentasi**
 
@@ -122,7 +122,7 @@
 
 
 
-### - Daftar Mitra&#x20;
+### Daftar Mitra&#x20;
 
 #### **Dokumentasi**
 
@@ -156,7 +156,7 @@
 
 ***
 
-### - List Proposal
+### List Proposal
 
 (Bintang)
 
@@ -190,7 +190,7 @@
 
 
 
-### - Detail Proposal
+### Detail Proposal
 
 #### Dokumentasi
 
