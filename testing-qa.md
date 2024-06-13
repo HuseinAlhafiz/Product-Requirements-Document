@@ -30,7 +30,7 @@ Untuk detail TestCase dapat dilihat pada [https://docs.google.com/spreadsheets/d
 
 ## MITRA
 
-### Daftar Mitra
+### Admin Mitra
 
 (Andre)
 

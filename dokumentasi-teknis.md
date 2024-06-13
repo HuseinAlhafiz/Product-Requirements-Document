@@ -122,7 +122,7 @@
 
 
 
-### Daftar Mitra&#x20;
+### Admin Mitra&#x20;
 
 #### **Dokumentasi**
 
