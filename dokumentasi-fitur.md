@@ -1,12 +1,10 @@
-# Dokumentasi Teknis
+# Dokumentasi Fitur
 
 ## INNOVATOR
 
 ***
 
 ### List Innovator
-
-#### **Dokumentasi**
 
 <figure><img src=".gitbook/assets/mervin1.png" alt=""><figcaption><p>Tampilan List Innovator</p></figcaption></figure>
 
@@ -22,7 +20,7 @@
 
 #### Keterangan
 
-<table><thead><tr><th width="181">Fitur</th><th width="211">Deskripsi </th><th width="165">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Fitur ini berisi Daftar Innovator yang mengajukan proposal.</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Innovator  yang mengajukan proposal.</td></tr><tr><td>Filter (Perguruan Tinggi, Direktorat, dan Innovator)</td><td>Fitur ini berisi Filter pencarian berdasarkan Perguruan Tinggi, Direktorat, dan Innovator yang dituju</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi, Direktorat, dan Innovator</td></tr></tbody></table>
+<table><thead><tr><th width="196">Fitur</th><th width="211">Deskripsi </th><th width="165">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Fitur ini berisi Daftar Innovator yang mengajukan proposal.</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Innovator  yang mengajukan proposal.</td></tr><tr><td><p>Filter </p><p>(Perguruan Tinggi, Direktorat, dan Innovator, dan Multiple Filter)</p></td><td>Fitur ini berisi Filter  berdasarkan Perguruan Tinggi, Direktorat, dan Innovator yang dituju</td><td>User kesulitan untuk mencari proposal yang dituju</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi, Direktorat, dan Innovator</td></tr><tr><td><p>Search </p><p>(nama, direktorat, perguruan tinggi, profile id)</p></td><td>Fitur ini berisi search berdasarkan nama, direktorat, perguruan tinggi, dan profile id)</td><td>User kesulitan untuk mencari proposal yang dituju</td><td>Berfungsi untuk mempermudah pencarian berdasarkan nama, direktorat, perguruan tinggi, profile id</td></tr><tr><td>Tampilan antarmuka (UI) Responsive </td><td>Fitur ini berisi Tampilan Antarmuka (UI) yang telah dilakukan pada 3 device berbeda (Iphone xr, ipad air, laptop)</td><td>User memiliki tampilan antarmuka yang tidak responsive pada device yang berbeda </td><td>Berfungsi untuk menciptakan tampilan antarmuka pengguna (UI) yang responsif pada berbagai perangkat.</td></tr></tbody></table>
 
 #### **Model**
 
@@ -30,17 +28,15 @@
 
 #### **Relasi**
 
-<table><thead><tr><th width="212">Model / Tabel</th><th width="163">Relasi</th><th>Model/Tabel</th></tr></thead><tbody><tr><td>tkai_profile_innovator </td><td>belongs to </td><td>tkai_user</td></tr><tr><td>tkai_profile_innovator  </td><td>has many </td><td>mf_proposals </td></tr><tr><td>mf_proposals</td><td> has one  </td><td>mf_proposal_penetapans</td></tr><tr><td>mf_proposals</td><td>has many</td><td>Mf_Proposal_anggotas (Anggota2024)</td></tr><tr><td>Tkai_matching_fund </td><td></td><td><ul><li>anggaran_bahan_prototype</li><li>anggaran_bantuan_insentif_mahasiswa</li><li>anggaran_biaya_perjalanan</li><li>anggaran_fgd, anggaran_honorerium</li><li>anggaran_pendaftaran_hki</li><li>anggaran_pendampingan</li><li>anggaran_pengelolaan_program</li><li>anggaran_pengujian_produk</li><li>anggaran_pendukung</li><li>anggaran_produk_skala_terbatas</li><li>anggaran_survey,(Anggaran2023)</li></ul><p></p></td></tr><tr><td>Tkai_matching_fund</td><td>has one</td><td>proposal_ditetapkans</td></tr></tbody></table>
+<table><thead><tr><th width="212">Model / Tabel</th><th width="163">Relasi</th><th>Model/Tabel</th></tr></thead><tbody><tr><td>tkai_profile_innovator </td><td>belongs to </td><td>tkai_user</td></tr><tr><td>tkai_profile_innovator  </td><td>has many </td><td>mf_proposals </td></tr><tr><td>mf_proposals</td><td> has one  </td><td>mf_proposal_penetapans</td></tr><tr><td>mf_proposals</td><td>has many</td><td>Mf_Proposal_anggotas (Anggota2024)</td></tr><tr><td>tkai_matching_fund </td><td></td><td><ul><li>anggaran_bahan_prototype</li><li>anggaran_bantuan_insentif_mahasiswa</li><li>anggaran_biaya_perjalanan</li><li>anggaran_fgd, anggaran_honorerium</li><li>anggaran_pendaftaran_hki</li><li>anggaran_pendampingan</li><li>anggaran_pengelolaan_program</li><li>anggaran_pengujian_produk</li><li>anggaran_pendukung</li><li>anggaran_produk_skala_terbatas</li><li>anggaran_survey,(Anggaran2023)</li></ul><p></p></td></tr><tr><td>tkai_matching_fund</td><td>has one</td><td>proposal_ditetapkans</td></tr></tbody></table>
 
 #### Nama Komponen
 
 <table><thead><tr><th width="79">No</th><th width="288">Nama Folder</th><th>Nama File</th></tr></thead><tbody><tr><td>1</td><td>innovator</td><td>index</td></tr></tbody></table>
 
-**Keanggotaan Proposal**
+#### **Keanggotaan Proposal**
 
-#### **DOKUMENTASI**
-
-<figure><img src=".gitbook/assets/mervin3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/mervin3.png" alt=""><figcaption><p>Keanggotaan Proposal</p></figcaption></figure>
 
 #### Model
 
@@ -58,8 +54,6 @@
 
 ### Detail Innovator
 
-#### **Dokumentasi**
-
 <figure><img src=".gitbook/assets/reza1.jpeg" alt=""><figcaption><p>Proposal 2024</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/reza2.jpeg" alt=""><figcaption><p>Proposal 2023</p></figcaption></figure>
@@ -68,7 +62,7 @@
 
 #### Keterangan
 
-<table><thead><tr><th width="152">Fitur</th><th width="217">Deskripsi </th><th width="187">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td><p>List Innovator</p><p>2023, 2024</p></td><td>Fitur ini berisi Daftar Proposal yang akan diajukan dan diterima</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Innovator yang mengajukan proposal.</td></tr><tr><td>Detail Innovator 2023, 2024</td><td>Fitur ini berisi Daftar Proposal yang akan diajukan dan diterima</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Detail Innovator yang mengajukan proposal</td></tr><tr><td>Data profile Innovator</td><td>Fitur ini berisi untuk menampilkan data </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Data Profile Innovator</td></tr><tr><td>Daftar Kolaborasi</td><td>Fitur ini berfungsi untuk mengetahui peran Innovator </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mengetahui peran yang diemban oleh Innovator serta di mana ia berkontribusi dalam proposal tersebut.</td></tr></tbody></table>
+<table><thead><tr><th width="169">Fitur</th><th width="190">Deskripsi </th><th width="187">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td><p>List Innovator</p><p>2023, 2024</p></td><td>Fitur ini berisi Daftar Proposal yang akan diajukan dan diterima</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Innovator yang mengajukan proposal.</td></tr><tr><td>Detail Innovator 2023, 2024</td><td>Fitur ini berisi Daftar Proposal yang akan diajukan dan diterima</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Detail Innovator yang mengajukan proposal</td></tr><tr><td>Data profile Innovator</td><td>Fitur ini berisi untuk menampilkan data </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Data Profile Innovator</td></tr><tr><td>Daftar Kolaborasi</td><td>Fitur ini berfungsi untuk mengetahui peran Innovator </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mengetahui peran yang diemban oleh Innovator serta di mana ia berkontribusi dalam proposal tersebut.</td></tr><tr><td>Filter (Id dan Judul) pada daftar kolaborasi</td><td>Fitur ini berisi Filter  berdasarkan ID dan Judul yang dituju</td><td>User kesulitan untuk mencari proposal yang dituju</td><td>Berfungsi untuk mempermudah pencarian berdasarkan ID dan Judul</td></tr><tr><td><p>Search </p><p>(Jenis Kolaborasi dan Tahun) pada daftar kolaborasi</p></td><td>Fitur ini berisi search berdasarkan Jenis Kolaborasi dan Tahun</td><td>User kesulitan untuk mencari proposal yang dituju</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Jenis Kolaborasi dan Tahun</td></tr><tr><td>Search Universal</td><td>Fitur ini berisi search berdasarkan ID dan Judul untuk Proposal atau Kolaborasi</td><td>User kesulitan untuk mencari proposal atau kolaborasi yang dituju</td><td>Berfungsi untuk mencari proposal ataupun kolaborasi berdasarkan id dan judul</td></tr><tr><td>Tampilan antarmuka (UI) Responsive pada Detail Innovator dan Proposal 2023</td><td>Fitur ini berisi Tampilan Antarmuka (UI) yang telah dilakukan pada 3 device berbeda (Iphone xr, ipad air, laptop)</td><td>User memiliki tampilan antarmuka yang tidak responsive pada device yang berbeda </td><td>Berfungsi untuk menciptakan tampilan antarmuka pengguna (UI) yang responsif pada berbagai perangkat.</td></tr></tbody></table>
 
 #### **Model**
 
@@ -124,15 +118,17 @@
 
 ### Admin Mitra&#x20;
 
-#### **Dokumentasi**
-
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Tampilan Daftar Mitra</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Proposal 2024</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Proposal 2023</p></figcaption></figure>
 
-<table><thead><tr><th width="161">Fitur</th><th width="217">Deskripsi </th><th width="182">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>Proposal 2023/2024</td><td>Fitur ini berisi Daftar Proposal yang telah diajukan</td><td>karena fitur tersebut belum ada sebelumnya. </td><td>Berfungsi untuk menampilkan proposal  yang telah diajukan</td></tr><tr><td><p>Filter </p><p>(Nama Mitra, </p><p>Jenis Mitra, Kategori Mitra, Provinsi Mitra)</p></td><td>Fitur ini berisi Filter pencarian berdasarkan Nama Mitra, Jenis Mitra, Kategori Mitra, Provinsi Mitra</td><td>Karena dibutuhkan  untuk mencari informasi berdasarkan kriteria tertentu</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Nama Mitra, Jenis Mitra, Kategori Mitra, Provinsi Mitra</td></tr><tr><td>Multiple filter</td><td>Fitur ini berisi Filter pencarian multiple untuk pencarian ganda</td><td>Karena dibutuhkan untuk mencari informasi berdasarkan berbagai ketentuan tertentu</td><td>Berfungsi untuk memungkinkan pengguna memasukkan beberapa parameter pencarian dalam filter.</td></tr><tr><td>Daftar Mitra</td><td>Fitur ini berisi Daftar Mitra yang terdaftar</td><td>Karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk memberikan informasi tentang daftar mitra yang terdaftar.</td></tr><tr><td>Export Mitra</td><td>Fitur ini berisi Export data Mitra dan anggaran-anggaran</td><td>Karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mengekspor data mitra dan anggaran-anggaran.</td></tr></tbody></table>
+<figure><img src=".gitbook/assets/Tagging Mitra.jpeg" alt=""><figcaption><p>Tagging Mitra</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/Tagging Mitra 2.jpeg" alt=""><figcaption><p>Tagging Mitra</p></figcaption></figure>
+
+<table><thead><tr><th width="170">Fitur</th><th width="217">Deskripsi </th><th width="182">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>Proposal 2023/2024</td><td>Fitur ini berisi Daftar Proposal yang telah diajukan</td><td>karena fitur tersebut belum ada sebelumnya. </td><td>Berfungsi untuk menampilkan proposal  yang telah diajukan</td></tr><tr><td><p>Filter </p><p>(Nama Mitra, </p><p>Jenis Mitra, Kategori Mitra, Provinsi Mitra)</p></td><td>Fitur ini berisi Filter pencarian berdasarkan Nama Mitra, Jenis Mitra, Kategori Mitra, Provinsi Mitra</td><td>Karena dibutuhkan  untuk mencari informasi berdasarkan kriteria tertentu</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Nama Mitra, Jenis Mitra, Kategori Mitra, Provinsi Mitra</td></tr><tr><td>Multiple filter</td><td>Fitur ini berisi Filter pencarian multiple untuk pencarian ganda</td><td>Karena dibutuhkan untuk mencari informasi berdasarkan berbagai ketentuan tertentu</td><td>Berfungsi untuk memungkinkan pengguna memasukkan beberapa parameter pencarian dalam filter.</td></tr><tr><td>Daftar Mitra</td><td>Fitur ini berisi Daftar Mitra yang terdaftar</td><td>Karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk memberikan informasi tentang daftar mitra yang terdaftar.</td></tr><tr><td>Export Mitra</td><td>Fitur ini berisi Export data Mitra dan anggaran-anggaran</td><td>Karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mengekspor data mitra dan anggaran-anggaran.</td></tr><tr><td>Tagging Mitra</td><td>Fitur ini berisi</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 #### **Model**
 

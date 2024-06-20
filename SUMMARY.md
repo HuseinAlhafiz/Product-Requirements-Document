@@ -4,6 +4,6 @@
 * [Model](model.md)
 * [Page](page.md)
 * [Component](component.md)
-* [Dokumentasi Teknis](dokumentasi-teknis.md)
+* [Dokumentasi Fitur](dokumentasi-fitur.md)
 * [Testing QA](testing-qa.md)
 * [Catatan Penting](catatan-penting.md)
