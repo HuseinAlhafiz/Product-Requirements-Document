@@ -18,6 +18,8 @@
 
 <figure><img src=".gitbook/assets/mervin5.png" alt=""><figcaption><p>Multiple Filter</p></figcaption></figure>
 
+<figure><img src=".gitbook/assets/TampilanResponsive.jpeg" alt="" width="195"><figcaption><p>UI Responsive</p></figcaption></figure>
+
 #### Keterangan
 
 <table><thead><tr><th width="196">Fitur</th><th width="211">Deskripsi </th><th width="165">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Innovator</td><td>Fitur ini berisi Daftar Innovator yang mengajukan proposal.</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Innovator  yang mengajukan proposal.</td></tr><tr><td><p>Filter </p><p>(Perguruan Tinggi, Direktorat, dan Innovator, dan Multiple Filter)</p></td><td>Fitur ini berisi Filter  berdasarkan Perguruan Tinggi, Direktorat, dan Innovator yang dituju</td><td>User kesulitan untuk mencari proposal yang dituju</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Perguruan Tinggi, Direktorat, dan Innovator</td></tr><tr><td><p>Search </p><p>(nama, direktorat, perguruan tinggi, profile id)</p></td><td>Fitur ini berisi search berdasarkan nama, direktorat, perguruan tinggi, dan profile id)</td><td>User kesulitan untuk mencari proposal yang dituju</td><td>Berfungsi untuk mempermudah pencarian berdasarkan nama, direktorat, perguruan tinggi, profile id</td></tr><tr><td>Tampilan antarmuka (UI) Responsive </td><td>Fitur ini berisi Tampilan Antarmuka (UI) yang telah dilakukan pada 3 device berbeda (Iphone xr, ipad air, laptop)</td><td>User memiliki tampilan antarmuka yang tidak responsive pada device yang berbeda </td><td>Berfungsi untuk menciptakan tampilan antarmuka pengguna (UI) yang responsif pada berbagai perangkat.</td></tr></tbody></table>
@@ -36,7 +38,7 @@
 
 #### **Keanggotaan Proposal**
 
-<figure><img src=".gitbook/assets/mervin3.png" alt=""><figcaption><p>Keanggotaan Proposal</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Keanggotaan Proposal.jpeg" alt=""><figcaption><p>Keanggotaan Proposal</p></figcaption></figure>
 
 #### Model
 
@@ -54,15 +56,19 @@
 
 ### Detail Innovator
 
-<figure><img src=".gitbook/assets/reza1.jpeg" alt=""><figcaption><p>Proposal 2024</p></figcaption></figure>
+<figure><img src=".gitbook/assets/reza1.jpeg" alt=""><figcaption><p>List Proposal 2024</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/reza2.jpeg" alt=""><figcaption><p>Proposal 2023</p></figcaption></figure>
+<figure><img src=".gitbook/assets/detailProposal.jpeg" alt=""><figcaption><p>Detail Proposal</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/reza3.jpeg" alt=""><figcaption><p>Detail </p></figcaption></figure>
+<figure><img src=".gitbook/assets/FilterSearch.jpeg" alt=""><figcaption><p>Filter dan Search</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/responsivereja.jpeg" alt="" width="203"><figcaption><p>UI Responsive</p></figcaption></figure>
+
+
 
 #### Keterangan
 
-<table><thead><tr><th width="169">Fitur</th><th width="190">Deskripsi </th><th width="187">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td><p>List Innovator</p><p>2023, 2024</p></td><td>Fitur ini berisi Daftar Proposal yang akan diajukan dan diterima</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Innovator yang mengajukan proposal.</td></tr><tr><td>Detail Innovator 2023, 2024</td><td>Fitur ini berisi Daftar Proposal yang akan diajukan dan diterima</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Detail Innovator yang mengajukan proposal</td></tr><tr><td>Data profile Innovator</td><td>Fitur ini berisi untuk menampilkan data </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Data Profile Innovator</td></tr><tr><td>Daftar Kolaborasi</td><td>Fitur ini berfungsi untuk mengetahui peran Innovator </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mengetahui peran yang diemban oleh Innovator serta di mana ia berkontribusi dalam proposal tersebut.</td></tr><tr><td>Filter (Id dan Judul) pada daftar kolaborasi</td><td>Fitur ini berisi Filter  berdasarkan ID dan Judul yang dituju</td><td>User kesulitan untuk mencari proposal yang dituju</td><td>Berfungsi untuk mempermudah pencarian berdasarkan ID dan Judul</td></tr><tr><td><p>Search </p><p>(Jenis Kolaborasi dan Tahun) pada daftar kolaborasi</p></td><td>Fitur ini berisi search berdasarkan Jenis Kolaborasi dan Tahun</td><td>User kesulitan untuk mencari proposal yang dituju</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Jenis Kolaborasi dan Tahun</td></tr><tr><td>Search Universal</td><td>Fitur ini berisi search berdasarkan ID dan Judul untuk Proposal atau Kolaborasi</td><td>User kesulitan untuk mencari proposal atau kolaborasi yang dituju</td><td>Berfungsi untuk mencari proposal ataupun kolaborasi berdasarkan id dan judul</td></tr><tr><td>Tampilan antarmuka (UI) Responsive pada Detail Innovator dan Proposal 2023</td><td>Fitur ini berisi Tampilan Antarmuka (UI) yang telah dilakukan pada 3 device berbeda (Iphone xr, ipad air, laptop)</td><td>User memiliki tampilan antarmuka yang tidak responsive pada device yang berbeda </td><td>Berfungsi untuk menciptakan tampilan antarmuka pengguna (UI) yang responsif pada berbagai perangkat.</td></tr></tbody></table>
+<table><thead><tr><th width="169">Fitur</th><th width="190">Deskripsi </th><th width="187">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td><p>List Innovator</p><p>2023, 2024</p></td><td>Fitur ini berisi Daftar Proposal yang akan diajukan dan diterima</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Innovator yang mengajukan proposal.</td></tr><tr><td>Detail Innovator 2023, 2024</td><td>Fitur ini berisi Daftar Proposal yang akan diajukan dan diterima</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Detail Innovator yang mengajukan proposal</td></tr><tr><td>Data profile Innovator</td><td>Fitur ini berisi untuk menampilkan data </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan Data Profile Innovator</td></tr><tr><td>Daftar Kolaborasi</td><td>Fitur ini berfungsi untuk mengetahui peran Innovator </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mengetahui peran yang diemban oleh Innovator serta di mana ia berkontribusi dalam proposal tersebut.</td></tr><tr><td>Filter (Id dan Judul) pada daftar kolaborasi</td><td>Fitur ini berisi Filter  berdasarkan ID dan Judul yang dituju</td><td>User kesulitan untuk mencari proposal yang dituju</td><td>Berfungsi untuk mempermudah pencarian berdasarkan ID dan Judul</td></tr><tr><td><p>Search </p><p>(Jenis Kolaborasi dan Tahun) pada daftar kolaborasi</p></td><td>Fitur ini berisi search berdasarkan Jenis Kolaborasi dan Tahun</td><td>User kesulitan untuk mencari proposal yang dituju</td><td>Berfungsi untuk mempermudah pencarian berdasarkan Jenis Kolaborasi dan Tahun</td></tr><tr><td>Search Universal</td><td>Fitur ini berisi search berdasarkan ID dan Judul untuk Proposal atau Kolaborasi</td><td>User kesulitan untuk mencari proposal atau kolaborasi yang dituju</td><td>Berfungsi untuk mencari proposal ataupun kolaborasi berdasarkan id dan judul</td></tr><tr><td>Tampilan antarmuka (UI) Responsive pada Detail Innovator dan Detail Proposal 2023</td><td>Fitur ini berisi Tampilan Antarmuka (UI) yang telah dilakukan pada 3 device berbeda (Iphone xr, ipad air, laptop)</td><td>User memiliki tampilan antarmuka yang tidak responsive pada device yang berbeda </td><td>Berfungsi untuk menciptakan tampilan antarmuka pengguna (UI) yang responsif pada berbagai perangkat.</td></tr></tbody></table>
 
 #### **Model**
 
