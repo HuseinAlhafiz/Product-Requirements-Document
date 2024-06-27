@@ -166,23 +166,31 @@ Keterangan
 
 ### List Proposal
 
-<figure><img src=".gitbook/assets/ListProposal1.jpeg" alt=""><figcaption><p>Proposal 2023 (Ditetapkan)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/list proposal 2021 (sisi user).jpeg" alt=""><figcaption><p>list proposal 2021 (sisi user)</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/ListProposal2.jpeg" alt=""><figcaption><p>Proposal 2023 (Semua)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/list proposal 2023 (sisi user).jpeg" alt=""><figcaption><p>list proposal 2023 (sisi user)</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/ListProposal3.jpeg" alt=""><figcaption><p>Proposal 2022</p></figcaption></figure>
+<figure><img src=".gitbook/assets/list proposal 2024 (sisi user).jpeg" alt=""><figcaption><p>list proposal 2024 (sisi user)</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/ListProposal4.jpeg" alt=""><figcaption><p>Filter Search</p></figcaption></figure>
+<figure><img src=".gitbook/assets/unggah pengumuman (admin).jpeg" alt=""><figcaption><p>unggah pengumuman (admin)</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/ListProposal5.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/list pengumuman per perguruan tinggi (admin).jpeg" alt=""><figcaption><p>list pengumuman per perguruan tinggi (admin)</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/manajemen pengumuman (admin).jpeg" alt=""><figcaption><p>manajemen pengumuman (admin)</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/list kontrak 2023.jpeg" alt=""><figcaption><p>list kontrak 2023</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/list kontrak 2024.jpeg" alt=""><figcaption><p>list kontrak 2024</p></figcaption></figure>
 
 #### Keterangan
 
-<table><thead><tr><th width="188">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Proposal 20232024</td><td>Fitur ini berisi Daftar proposal yang telah diajukan </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan proposal berdasarkan tahun</td></tr><tr><td><p>Filter </p><p>(company name, nama innovator, proposal id, judul proposal)</p></td><td>Fitur ini berisi Filter pencarian berdasarkan Company Name, Nama Innovator, Proposal Id, dan Judul Proposal yang dituju</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mempermudah pencarian berdasarkan </td></tr></tbody></table>
+<table><thead><tr><th width="188">Fitur</th><th width="217">Deskripsi </th><th width="195">Latar Belakang</th><th>Tujuan</th></tr></thead><tbody><tr><td>List Proposal 2021-2024</td><td>Fitur ini berisi Daftar proposal yang telah diajukan </td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk menampilkan proposal berdasarkan tahun</td></tr><tr><td><p>Filter </p><p>(company name, nama innovator, proposal id, judul proposal)</p></td><td>Fitur ini berisi Filter pencarian berdasarkan Company Name, Nama Innovator, Proposal Id, dan Judul Proposal yang dituju</td><td>karena fitur tersebut belum ada sebelumnya.</td><td>Berfungsi untuk mempermudah pencarian berdasarkan </td></tr><tr><td>Pengumuman </td><td>Fitur ini berisi Deskripsi, file, judul. admin bisa membuat pengumuman, update, dan delete. user hanya bisa melihat pengumuman</td><td></td><td>Berfungsi untuk menerima notifikasi atau pengumuman dari admin</td></tr></tbody></table>
 
 #### **Model**
 
 <table><thead><tr><th width="75">No</th><th width="288">Model</th><th>Nama Tabel</th></tr></thead><tbody><tr><td>1</td><td>TkaiInnovator</td><td>tkai_profile_innovator</td></tr><tr><td>2</td><td>MfProposal(24)</td><td>mf_proposals</td></tr><tr><td>3</td><td>MfProposalStatus(24)</td><td>mf_proposal_statuses</td></tr><tr><td>4</td><td>TkaiProposal</td><td>tkai_matching_fund</td></tr><tr><td>5</td><td>TxProposalStatus</td><td>tx_proposal_status</td></tr><tr><td>6</td><td>TkaiInnovation</td><td>tkai_innovation</td></tr><tr><td>7</td><td>TkaiMitra</td><td>tkai_profile_industry</td></tr><tr><td>8</td><td>TkaiProposalDes</td><td>tkai_matching_fund_desc</td></tr><tr><td>9</td><td>ProposalDitetapkan</td><td>tkai_matching_fund</td></tr></tbody></table>
+
+<table><thead><tr><th width="75">No</th><th width="288">Model</th><th>Nama Tabel</th></tr></thead><tbody><tr><td>1</td><td>Pengumuman (UP)</td><td>pengumuman</td></tr><tr><td>2</td><td>PerguruanTinggi</td><td>perguruan_tinggis</td></tr><tr><td>3</td><td>UnitPengelola</td><td>unit_pengelola</td></tr><tr><td>4</td><td></td><td></td></tr><tr><td>5</td><td></td><td></td></tr></tbody></table>
 
 #### **Relasi**
 
@@ -196,7 +204,7 @@ Keterangan
 
 ### Detail Proposal
 
-<figure><img src=".gitbook/assets/ListPerguruanTinggi.jpeg" alt=""><figcaption><p>List Perguruan Tinggi</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ListPerguruanTinggi.jpeg" alt=""><figcaption><p>List Proposal (Admin)</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/ListProposalPerguruanTinggi2024.jpeg" alt=""><figcaption><p>List Proposal Perguruan Tinggi 2024</p></figcaption></figure>
 
